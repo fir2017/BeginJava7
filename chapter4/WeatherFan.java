@@ -14,5 +14,6 @@ public class WeatherFan {
       }
       System.out.println("The average temperature at Location " + (i+1) + " is " + fTotalTemperature / faTenLocationWeather[i].length);
     }
+ 
   }
 }
