@@ -22,5 +22,6 @@ public class RandomNumSet {
       } 
       System.out.println();
     }
+    String sT;
   }
 }
