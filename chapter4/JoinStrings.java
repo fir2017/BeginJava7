@@ -21,7 +21,10 @@ public class JoinStrings {
     System.out.println(sJoinedString);
     
     sJoinedString = iaFiveNum.toString() + iNumHands;
-    
     System.out.println(sJoinedString);
+    
+    sJoinedString = String.valueOf(iaFiveNum) + iNumHands;
+    System.out.println(sJoinedString);
+
   }
 }
