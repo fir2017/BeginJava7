@@ -28,8 +28,11 @@
 </node>
 <node CREATED="1406792538903" HGAP="23" ID="ID_1688566308" MODIFIED="1406792938194" POSITION="right" STYLE="bubble" TEXT="&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;" VSHIFT="23">
 <node CREATED="1406801098443" ID="ID_511275424" MODIFIED="1406801175980" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x7ed3;&#x6784;&#x683c;&#x5f0f;&#xff1a;ruturn_type methodName ( arg1, arg2, ..., argn){ code block}"/>
-<node CREATED="1406801185372" ID="ID_1126697043" MODIFIED="1406801672950" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x8fd4;&#x56de;&#x503c;&#xff1a;return &#x8bed;&#x53e5;&#x8fd4;&#x56de;"/>
-<node CREATED="1406818710410" ID="ID_479218038" MODIFIED="1406818724190" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;"/>
+<node CREATED="1406801185372" ID="ID_1126697043" MODIFIED="1406824119221" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x8fd4;&#x56de;&#x503c;&#xff1a;return &#x8bed;&#x53e5;&#x8fd4;&#x56de;, the result of the last statements will return if there is not any return statement present."/>
+<node CREATED="1406818710410" ID="ID_479218038" MODIFIED="1406818724190" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;">
+<node CREATED="1406823720236" ID="ID_977833507" MODIFIED="1406823754538" TEXT="parameter: used in the definition of a method with type and name"/>
+<node CREATED="1406823758546" ID="ID_1538456819" MODIFIED="1406823988014" TEXT="arguments: the value passed to the method, where referenced by the parameter druring the method excuted. the order and type of the arguments value should consisted with the order and type of the parameters"/>
+</node>
 </node>
 <node CREATED="1406792983793" HGAP="31" ID="ID_1584345120" MODIFIED="1406793464031" POSITION="right" STYLE="bubble" TEXT="&#x6784;&#x9020;&#x51fd;&#x6570;" VSHIFT="20"/>
 </node>
