@@ -36,7 +36,9 @@
 <node CREATED="1407316486956" ID="ID_1599637744" MODIFIED="1407316542917" TEXT="final parameters: Preventing the modification of variable reference, but not the modification of the object itself"/>
 </node>
 <node CREATED="1407316576233" ID="ID_872394990" MODIFIED="1407316651733" TEXT="defined class method">
-<node CREATED="1407316667095" ID="ID_1235592306" MODIFIED="1407316848339" TEXT="use static key word in the before return-type of method to define the class as class method"/>
+<node CREATED="1407316667095" ID="ID_1235592306" MODIFIED="1407316848339" TEXT="use static key word in the before return-type of method to define the class as class method">
+<node CREATED="1407343440205" ID="ID_226987124" MODIFIED="1407343538834" TEXT="all ways using ClassName to call class method is recommend: can avoid error when the variable refered to a class is not defined and can explicit pointout the method is class method"/>
+</node>
 </node>
 <node CREATED="1407317100854" ID="ID_1513581961" MODIFIED="1407317379826" TEXT="access class data members in a method">
 <node CREATED="1407317152325" ID="ID_1988574308" MODIFIED="1407317272688" TEXT="Instance method can access any data members of class with appopriate name (without class name)"/>
@@ -56,10 +58,31 @@
 <node CREATED="1407318752762" ID="ID_663994763" MODIFIED="1407318784292" TEXT="initialization in data member declared"/>
 <node CREATED="1407318794940" ID="ID_205973101" MODIFIED="1407325842237" TEXT="Initialization block: A block of code between braces, excute before an object of class created">
 <node CREATED="1407325719131" ID="ID_606426453" MODIFIED="1407325977420" TEXT="static initialization block:  defined by keyword static, and excuted whene class loaded, just initialized static data member"/>
-<node CREATED="1407325859055" ID="ID_1566461488" MODIFIED="1407326020703" TEXT="instance initialization block: excuted before an object of class created, just initialized instance data member"/>
+<node CREATED="1407325859055" ID="ID_1566461488" MODIFIED="1407326020703" TEXT="instance initialization block: excuted before an object of class created, just initialized instance data member">
+<node CREATED="1407337598225" ID="ID_1277020977" MODIFIED="1407337614514" TEXT="execute before a constructor"/>
 </node>
 </node>
 </node>
-<node CREATED="1406792983793" HGAP="31" ID="ID_1584345120" MODIFIED="1406793464031" POSITION="right" STYLE="bubble" TEXT="&#x6784;&#x9020;&#x51fd;&#x6570;" VSHIFT="20"/>
+</node>
+<node CREATED="1406792983793" HGAP="31" ID="ID_1584345120" MODIFIED="1407337241657" POSITION="right" STYLE="bubble" TEXT="constructors" VSHIFT="20">
+<node CREATED="1407337244501" ID="ID_1459911142" MODIFIED="1407337777536" TEXT="constructors is a special method, where method name is identy to class name and with no return value (thus has no return type declared left adhere to the method name"/>
+<node CREATED="1407337310337" ID="ID_671260164" MODIFIED="1407337479386" TEXT="constructors was used to create the instance of a class and inovled when creating a instance of the class, that is using to initialization a instance"/>
+<node CREATED="1407337374193" ID="ID_1338598455" MODIFIED="1407339219783" TEXT="a default constructor, with no arguments and no statement in the body, will invovled if a class did not explicit defined a constructor"/>
+<node CREATED="1407339222833" ID="ID_1031879151" MODIFIED="1407339369840" TEXT="default constructor will not supply if constructor(s) defined explicity, but can explicit defined a constructor with the structure identified to default one"/>
+<node CREATED="1407340673452" ID="ID_1585963474" MODIFIED="1407340696495" TEXT="create object of a class">
+<node CREATED="1407340699210" ID="ID_1929418520" MODIFIED="1407340774989" TEXT="&quot;ClassName variableName&quot; just create a variable that can renfer to a ClassName object, the Object of ClassName have not create in here"/>
+<node CREATED="1407340781154" ID="ID_1915801141" MODIFIED="1407340875923" TEXT="keyword new was used to create an object of a class with format: variableName = new ClassName(arguments)"/>
+<node CREATED="1407340954085" ID="ID_729888637" MODIFIED="1407341049131" TEXT="or can asign a exist object to a declared varaibleName with the same class, for example: ClassName variableName1 = variableName"/>
+<node CREATED="1407341392691" ID="ID_1979152020" MODIFIED="1407341583097" TEXT="when object used as an argument, the value of the variable refer to the object will pass to the method and thus the arguments and the variablee will refer to the same object, and thus the modification maded in the method will persitant return to the variable"/>
+<node CREATED="1407341591581" ID="ID_922949826" MODIFIED="1407341805303" TEXT="The lifetime of an object was determined by whether any variable anywhere in the program still reference to it">
+<node CREATED="1407341830141" ID="ID_1349947144" MODIFIED="1407341887259" TEXT="garbage collection(GC): The process of disposing of dead objects. Java autometically execute GC to release memory"/>
+<node CREATED="1407341975765" ID="ID_178934017" MODIFIED="1407342009913" TEXT="System.gc() can used by program to explicit execute garbage collection"/>
+</node>
+</node>
+</node>
+<node CREATED="1407343553351" ID="ID_1055608186" MODIFIED="1407343583582" POSITION="right" STYLE="bubble" TEXT="Method overloading">
+<node CREATED="1407343627095" ID="ID_807653550" MODIFIED="1407343724093" TEXT="defined two or more methods with the same name in a class, as long as each method has a unique set of parameters"/>
+<node CREATED="1407343739917" ID="ID_1473709788" MODIFIED="1407343817415" TEXT="signature of the method: the name of the method with the type and sequence of the parameters form the signature of a method"/>
+</node>
 </node>
 </map>
