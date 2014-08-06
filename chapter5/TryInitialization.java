@@ -32,10 +32,24 @@ public class TryInitialization {
     }
   }
   
+  int getIntValue(){
+    int iT = 10;
+    iT += 5;
+    return iT;//method withou return statement will raising error when complile!
+  }
+  
   public static void main (String[] args) {
     System.out.println("no instance for TryInitialization!");
     TryInitialization.getStaticValues(); 
+    System.out.println("first instance for TryInitialization!");
     TryInitialization tiObject1 = new TryInitialization();
-     
+    System.out.println("instance variable can called static method and variable!");
+    tiObject1.getStaticValues(); 
+    tiObject1.getInstanceValues();
+    System.out.println("second instance for TryInitialization!");
+    TryInitialization tiObject2 = new TryInitialization();
+    tiObject2.getInstanceValues();
+    System.out.println("method withou return statement will raising error when complile!");
+    tiObject2.getIntValue();
   }
 }
