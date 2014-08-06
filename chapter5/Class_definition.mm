@@ -32,6 +32,32 @@
 <node CREATED="1406818710410" ID="ID_479218038" MODIFIED="1406818724190" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;">
 <node CREATED="1406823720236" ID="ID_977833507" MODIFIED="1406823754538" TEXT="parameter: used in the definition of a method with type and name"/>
 <node CREATED="1406823758546" ID="ID_1538456819" MODIFIED="1406823988014" TEXT="arguments: the value passed to the method, where referenced by the parameter druring the method excuted. the order and type of the arguments value should consisted with the order and type of the parameters"/>
+<node CREATED="1407312758851" ID="ID_420419301" MODIFIED="1407315909873" TEXT="transform: pass-by-value, that the value of arguments will made a copy and passed to the method when invovled. Method do not modified the primitive value, but can modifed object value ( where reference by variable)"/>
+<node CREATED="1407316486956" ID="ID_1599637744" MODIFIED="1407316542917" TEXT="final parameters: Preventing the modification of variable reference, but not the modification of the object itself"/>
+</node>
+<node CREATED="1407316576233" ID="ID_872394990" MODIFIED="1407316651733" TEXT="defined class method">
+<node CREATED="1407316667095" ID="ID_1235592306" MODIFIED="1407316848339" TEXT="use static key word in the before return-type of method to define the class as class method"/>
+</node>
+<node CREATED="1407317100854" ID="ID_1513581961" MODIFIED="1407317379826" TEXT="access class data members in a method">
+<node CREATED="1407317152325" ID="ID_1988574308" MODIFIED="1407317272688" TEXT="Instance method can access any data members of class with appopriate name (without class name)"/>
+</node>
+<node CREATED="1407317390416" HGAP="21" ID="ID_591403402" MODIFIED="1407318107708" TEXT="this variable" VSHIFT="11">
+<node CREATED="1407317429769" ID="ID_901718998" MODIFIED="1407317563723" TEXT="this variable is a variable that existed in any instance method used to refers the object where the method called "/>
+<node CREATED="1407317788461" ID="ID_1399087183" MODIFIED="1407317820492" TEXT="four sources of data in method">
+<node CREATED="1407317824211" ID="ID_922242058" MODIFIED="1407317860609" TEXT="arguments variable, using parameters names"/>
+<node CREATED="1407317864504" ID="ID_149197793" MODIFIED="1407317898986" TEXT="data members: instance variable or static variable">
+<node CREATED="1407318129035" ID="ID_96706618" MODIFIED="1407318246203" TEXT="where idendicaled to arguments or local variable, can used &quot;this&quot; variable to explicit this variable refered to a data member"/>
+</node>
+<node CREATED="1407317910046" ID="ID_1650413871" MODIFIED="1407318046589" TEXT="local varible: declared in the method body"/>
+<node CREATED="1407317970326" ID="ID_203003902" MODIFIED="1407318015923" TEXT="return value: returned by a called method in the method"/>
+</node>
+</node>
+<node CREATED="1407318682541" ID="ID_1084552387" MODIFIED="1407318695918" TEXT="Initiazing data member">
+<node CREATED="1407318752762" ID="ID_663994763" MODIFIED="1407318784292" TEXT="initialization in data member declared"/>
+<node CREATED="1407318794940" ID="ID_205973101" MODIFIED="1407325842237" TEXT="Initialization block: A block of code between braces, excute before an object of class created">
+<node CREATED="1407325719131" ID="ID_606426453" MODIFIED="1407325977420" TEXT="static initialization block:  defined by keyword static, and excuted whene class loaded, just initialized static data member"/>
+<node CREATED="1407325859055" ID="ID_1566461488" MODIFIED="1407326020703" TEXT="instance initialization block: excuted before an object of class created, just initialized instance data member"/>
+</node>
 </node>
 </node>
 <node CREATED="1406792983793" HGAP="31" ID="ID_1584345120" MODIFIED="1406793464031" POSITION="right" STYLE="bubble" TEXT="&#x6784;&#x9020;&#x51fd;&#x6570;" VSHIFT="20"/>
