@@ -66,11 +66,11 @@
 </node>
 <node CREATED="1406792983793" HGAP="31" ID="ID_1584345120" MODIFIED="1407337241657" POSITION="right" STYLE="bubble" TEXT="constructors" VSHIFT="20">
 <node CREATED="1407337244501" ID="ID_1459911142" MODIFIED="1407337777536" TEXT="constructors is a special method, where method name is identy to class name and with no return value (thus has no return type declared left adhere to the method name"/>
-<node CREATED="1407337310337" ID="ID_671260164" MODIFIED="1407337479386" TEXT="constructors was used to create the instance of a class and inovled when creating a instance of the class, that is using to initialization a instance"/>
+<node CREATED="1407337310337" ID="ID_671260164" MODIFIED="1407381512432" TEXT="constructors was involved to initialize the instance variable to create the instance of a class when a instance of the class is creating, that is using to initialize the instance variables"/>
 <node CREATED="1407337374193" ID="ID_1338598455" MODIFIED="1407339219783" TEXT="a default constructor, with no arguments and no statement in the body, will invovled if a class did not explicit defined a constructor"/>
 <node CREATED="1407339222833" ID="ID_1031879151" MODIFIED="1407339369840" TEXT="default constructor will not supply if constructor(s) defined explicity, but can explicit defined a constructor with the structure identified to default one"/>
 <node CREATED="1407340673452" ID="ID_1585963474" MODIFIED="1407340696495" TEXT="create object of a class">
-<node CREATED="1407340699210" ID="ID_1929418520" MODIFIED="1407340774989" TEXT="&quot;ClassName variableName&quot; just create a variable that can renfer to a ClassName object, the Object of ClassName have not create in here"/>
+<node CREATED="1407340699210" ID="ID_1929418520" MODIFIED="1407381625320" TEXT="Declare a Class variable using the format &quot;ClassName variableName&quot;,  just create a variable that can renfer to a ClassName object, the Object of ClassName have not create in here"/>
 <node CREATED="1407340781154" ID="ID_1915801141" MODIFIED="1407340875923" TEXT="keyword new was used to create an object of a class with format: variableName = new ClassName(arguments)"/>
 <node CREATED="1407340954085" ID="ID_729888637" MODIFIED="1407341049131" TEXT="or can asign a exist object to a declared varaibleName with the same class, for example: ClassName variableName1 = variableName"/>
 <node CREATED="1407341392691" ID="ID_1979152020" MODIFIED="1407341583097" TEXT="when object used as an argument, the value of the variable refer to the object will pass to the method and thus the arguments and the variablee will refer to the same object, and thus the modification maded in the method will persitant return to the variable"/>
