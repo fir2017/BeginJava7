@@ -74,15 +74,33 @@
 <node CREATED="1407340781154" ID="ID_1915801141" MODIFIED="1407340875923" TEXT="keyword new was used to create an object of a class with format: variableName = new ClassName(arguments)"/>
 <node CREATED="1407340954085" ID="ID_729888637" MODIFIED="1407341049131" TEXT="or can asign a exist object to a declared varaibleName with the same class, for example: ClassName variableName1 = variableName"/>
 <node CREATED="1407341392691" ID="ID_1979152020" MODIFIED="1407341583097" TEXT="when object used as an argument, the value of the variable refer to the object will pass to the method and thus the arguments and the variablee will refer to the same object, and thus the modification maded in the method will persitant return to the variable"/>
-<node CREATED="1407341591581" ID="ID_922949826" MODIFIED="1407341805303" TEXT="The lifetime of an object was determined by whether any variable anywhere in the program still reference to it">
+<node CREATED="1407341591581" ID="ID_922949826" MODIFIED="1407382725994" TEXT="The lifetime of an object was determined by whether any variable anywhere in the program still reference to it">
 <node CREATED="1407341830141" ID="ID_1349947144" MODIFIED="1407341887259" TEXT="garbage collection(GC): The process of disposing of dead objects. Java autometically execute GC to release memory"/>
 <node CREATED="1407341975765" ID="ID_178934017" MODIFIED="1407342009913" TEXT="System.gc() can used by program to explicit execute garbage collection"/>
 </node>
 </node>
 </node>
-<node CREATED="1407343553351" ID="ID_1055608186" MODIFIED="1407343583582" POSITION="right" STYLE="bubble" TEXT="Method overloading">
+<node CREATED="1407343553351" ID="ID_1055608186" MODIFIED="1407382694829" POSITION="right" STYLE="bubble" TEXT="Method overloading">
 <node CREATED="1407343627095" ID="ID_807653550" MODIFIED="1407343724093" TEXT="defined two or more methods with the same name in a class, as long as each method has a unique set of parameters"/>
 <node CREATED="1407343739917" ID="ID_1473709788" MODIFIED="1407343817415" TEXT="signature of the method: the name of the method with the type and sequence of the parameters form the signature of a method"/>
+<node CREATED="1407382634066" ID="ID_714076416" MODIFIED="1407382688513" TEXT="mulitple constructors">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What is this used for
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1407382843843" ID="ID_613823383" MODIFIED="1407382885827" TEXT="constructor is the method that can be overloading, thus can use different arguments to create the object of the class"/>
+</node>
+<node CREATED="1407383997598" ID="ID_1072541656" MODIFIED="1407384013012" TEXT="call constructor from constructor">
+<node CREATED="1407384020387" ID="ID_36112804" MODIFIED="1407384187057" TEXT="constructor can call another constructor in its first execute statement using this as method name and appropriate arguments"/>
+<node CREATED="1407384400235" ID="ID_1761338991" MODIFIED="1407384459848" TEXT="using constructor to duplicate object: the constructor accept the same class object as argument"/>
+</node>
 </node>
 </node>
 </map>
