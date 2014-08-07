@@ -102,5 +102,31 @@
 <node CREATED="1407384400235" ID="ID_1761338991" MODIFIED="1407384459848" TEXT="using constructor to duplicate object: the constructor accept the same class object as argument"/>
 </node>
 </node>
+<node CREATED="1407400554216" ID="ID_1878185761" MODIFIED="1407401861382" POSITION="right" STYLE="bubble" TEXT="Using Objects"/>
+<node CREATED="1407401882017" ID="ID_510479368" MODIFIED="1407401919882" POSITION="right" STYLE="bubble" TEXT="RECURSION">
+<node CREATED="1407401929919" ID="ID_228693180" MODIFIED="1407402005413" TEXT="A method that can call itself described as ricursive method, and the process called recursion">
+<node CREATED="1407402009726" ID="ID_800963492" MODIFIED="1407402021747" TEXT="direct recursion"/>
+<node CREATED="1407402025722" ID="ID_1111236370" MODIFIED="1407402031924" TEXT="indirect resursion"/>
+</node>
+<node CREATED="1407402065384" ID="ID_1659084658" MODIFIED="1407402089999" TEXT="Stop logic need to stop the recursion"/>
+</node>
+<node CREATED="1407402649828" ID="ID_178217188" MODIFIED="1407415560189" POSITION="right" STYLE="bubble" TEXT="understanding packages">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21253;&#26159;&#19968;&#20010;&#21807;&#19968;&#21629;&#21517;&#30340;&#31867;&#30340;&#38598;&#21512;&#65292;&#21253;&#21517;.&#31867;&#21517;&#25165;&#26159;&#31867;&#30340;&#23436;&#25972;&#21517;&#23383;
+    </p>
+    <p>
+      &#40664;&#35748;&#21253;&#27809;&#26377;&#21517;&#31216;&#65306;&#40664;&#35748;&#21253;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1407415629965" ID="ID_1203163917" MODIFIED="1407415996279" TEXT="java.lang &#x5305;&#x5728;&#x7a0b;&#x5e8f;&#x4e2d;&#x81ea;&#x52a8;&#x53ef;&#x7528;&#xff0c;&#x5176;&#x63d0;&#x4f9b;&#x4e0e;java&#x8bed;&#x8a00;&#x76f8;&#x5173;&#x7684;&#x652f;&#x6301;"/>
+<node CREATED="1407416016316" ID="ID_488846806" MODIFIED="1407420078689" TEXT="package: a uniquely named collection of classes, it is used to avoid name crash between your own variables and other provide variables"/>
+</node>
 </node>
 </map>
