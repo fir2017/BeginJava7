@@ -93,8 +93,7 @@
       What is this used for
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1407382843843" ID="ID_613823383" MODIFIED="1407382885827" TEXT="constructor is the method that can be overloading, thus can use different arguments to create the object of the class"/>
 </node>
 <node CREATED="1407383997598" ID="ID_1072541656" MODIFIED="1407384013012" TEXT="call constructor from constructor">
@@ -123,10 +122,10 @@
       &#40664;&#35748;&#21253;&#27809;&#26377;&#21517;&#31216;&#65306;&#40664;&#35748;&#21253;
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1407415629965" ID="ID_1203163917" MODIFIED="1407415996279" TEXT="java.lang &#x5305;&#x5728;&#x7a0b;&#x5e8f;&#x4e2d;&#x81ea;&#x52a8;&#x53ef;&#x7528;&#xff0c;&#x5176;&#x63d0;&#x4f9b;&#x4e0e;java&#x8bed;&#x8a00;&#x76f8;&#x5173;&#x7684;&#x652f;&#x6301;"/>
+</html></richcontent>
+<node CREATED="1407415629965" ID="ID_1203163917" MODIFIED="1407425655558" TEXT="java.lang is auomatically avaliable to the program which is very closely relative to java language"/>
 <node CREATED="1407416016316" ID="ID_488846806" MODIFIED="1407420078689" TEXT="package: a uniquely named collection of classes, it is used to avoid name crash between your own variables and other provide variables"/>
+<node CREATED="1407427044281" ID="ID_329494950" MODIFIED="1407427054849" TEXT="packaging up classes"/>
 </node>
 </node>
 </map>
