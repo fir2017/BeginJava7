@@ -109,7 +109,7 @@
 </node>
 <node CREATED="1407402065384" ID="ID_1659084658" MODIFIED="1407402089999" TEXT="Stop logic need to stop the recursion"/>
 </node>
-<node CREATED="1407569370676" FOLDED="true" HGAP="81" ID="ID_488474355" MODIFIED="1407579166292" POSITION="left" STYLE="bubble" TEXT="controling Access tothe class members" VSHIFT="70">
+<node CREATED="1407569370676" FOLDED="true" HGAP="49" ID="ID_488474355" MODIFIED="1407588046297" POSITION="left" STYLE="bubble" TEXT="controling Access tothe class members" VSHIFT="-40">
 <node CREATED="1407572558077" ID="ID_2348075" MODIFIED="1407579027222" TEXT="the access of the class members was controlled by its access atribute"/>
 <node CREATED="1407572610692" ID="ID_1100668713" MODIFIED="1407579027222" TEXT="four type access attribute">
 <node CREATED="1407572656374" ID="ID_1611367937" MODIFIED="1407579027223" TEXT="no access attribute: access by method of any class on the same package"/>
@@ -254,6 +254,48 @@
 </node>
 <node CREATED="1407574622465" ID="ID_1827752119" MODIFIED="1407579027225" TEXT="using packages and access attributes"/>
 </node>
+<node CREATED="1407588042231" ID="ID_126059408" MODIFIED="1407589197660" POSITION="left" STYLE="bubble" TEXT="nested class">
+<node CREATED="1407588153336" ID="ID_1714288953" MODIFIED="1407588173009" TEXT="classes that inside in a another class"/>
+<node CREATED="1407588195679" ID="ID_1743715621" MODIFIED="1407589018029">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#e21515">nested class </font>access attribute like other class member of the outside class
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1407588307346" ID="ID_995725477" MODIFIED="1407588928244" TEXT="A instance nested class can be used to create a instance only using the instance of outside class">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38750;&#38745;&#24577;&#31867;&#23545;&#35937;&#30340;&#21019;&#24314;
+    </p>
+    <p>
+      1&#12289;&#39318;&#20808;&#20256;&#23601;&#39030;&#32423;&#31867;&#65288;outside&#65289;&#30340;&#23454;&#20363;&#65306; outside outer = new outside()
+    </p>
+    <p>
+      2&#12289;&#20877;&#36890;&#36807;&#39030;&#32423;&#31867;&#30340;&#23454;&#20363;&#21019;&#24314;&#23884;&#22871;&#31867;&#30340;&#23454;&#20363;&#65306;outside.inside nest = outer.new inside
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1407588660426" ID="ID_1943205219" MODIFIED="1407588930221" TEXT="static nested class can have static members and instance members"/>
+<node CREATED="1407589047029" ID="ID_1232761309" MODIFIED="1407589074160" TEXT="static nested class can only access static members of outside class"/>
+<node CREATED="1407588689068" ID="ID_1950779286" MODIFIED="1407588930221" TEXT="non static nested class can only have instance members"/>
+<node CREATED="1407589109977" ID="ID_896765652" MODIFIED="1407589180934" TEXT="non static nested class can access static and instance members of outside class"/>
+<node CREATED="1407591703583" ID="ID_1953462629" MODIFIED="1407591714658" TEXT="local inner class">
+<node CREATED="1407591718177" ID="ID_1998331267" MODIFIED="1407591727302" TEXT="a class defined in a method"/>
+</node>
+</node>
 <node CREATED="1407402649828" FOLDED="true" ID="ID_178217188" MODIFIED="1407579046483" POSITION="right" STYLE="bubble" TEXT="understanding packages">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -288,8 +330,7 @@
       package packagename.*; just used to select the class in the packagename (directory), not all the class in all subdirectory of this package (directory)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1407556671866" ID="ID_1931446958" MODIFIED="1407556685921" TEXT="package and names in the program">
