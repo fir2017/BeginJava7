@@ -170,6 +170,14 @@
 <node CREATED="1407557816805" ID="ID_320167956" MODIFIED="1407557847889" TEXT="javax.swing.event: classes support event for swing components"/>
 <node CREATED="1407557853954" ID="ID_1786905486" MODIFIED="1407557865308" TEXT="java.applet: classes for applet"/>
 <node CREATED="1407557873835" ID="ID_1028003064" MODIFIED="1407557927868" TEXT="java.util: classes for managment of collection, date, time and string"/>
+<node CREATED="1407568246029" ID="ID_1794878249" MODIFIED="1407568595861" TEXT="primitive data class: Integer, Long, Byte, Boolean, Short, Float, Double, Character">
+<node CREATED="1407568620627" ID="ID_1257976722" MODIFIED="1407568646634" TEXT="provide static method for impulation primitve data"/>
+<node CREATED="1407568657109" ID="ID_277956137" MODIFIED="1407568678438" TEXT="toString for primitive data to response strings"/>
+<node CREATED="1407568692745" ID="ID_838401829" MODIFIED="1407568802457" TEXT="parsexxx (xxx standard for primitive data classname, Integer.parseInt(), Boolean.parseBoolean et al) method to convert string to response primitive data value"/>
+<node CREATED="1407568845718" ID="ID_101987584" MODIFIED="1407568900063" TEXT=".xxxValue() can convert primitive object to xxx type value"/>
+<node CREATED="1407568910053" ID="ID_1928297541" MODIFIED="1407568993206" TEXT="final static constant value: MAX_VALUE and MIN_VALUE; POSITIVE_INFINITY and NEGTIVE_INFINITY and NaN."/>
+<node CREATED="1407569006212" ID="ID_1025624238" MODIFIED="1407569025872" TEXT="isInfinite() and isNaN can be used to test the value"/>
+</node>
 </node>
 </node>
 </node>
