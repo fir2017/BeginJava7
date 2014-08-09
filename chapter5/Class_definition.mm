@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1406792073979" ID="ID_594809272" MODIFIED="1406793820604" TEXT="&#x7b2c;5&#x7ae0;&#xff1a;&#x5b9a;&#x4e49;&#x7c7b;">
-<node CREATED="1406792510964" HGAP="11" ID="ID_1898257442" MODIFIED="1406792939412" POSITION="right" STYLE="bubble" TEXT="&#x7c7b;&#x7684;&#x5b9a;&#x4e49;" VSHIFT="-36">
+<node CREATED="1406792073979" ID="ID_594809272" MODIFIED="1407579171401" TEXT="&#x7b2c;5&#x7ae0;&#xff1a;&#x5b9a;&#x4e49;&#x7c7b;">
+<node CREATED="1406792510964" FOLDED="true" HGAP="11" ID="ID_1898257442" MODIFIED="1407579055613" POSITION="right" STYLE="bubble" TEXT="&#x7c7b;&#x7684;&#x5b9a;&#x4e49;" VSHIFT="-36">
 <node CREATED="1406793001833" ID="ID_1467918274" MODIFIED="1406793011065" TEXT="&#x57df;">
 <node CREATED="1406793039212" HGAP="35" ID="ID_6643145" MODIFIED="1406793400041" TEXT="&#x9759;&#x6001;&#x57df;/&#x7c7b;&#x53d8;&#x91cf;">
 <node CREATED="1406793284591" ID="ID_1952083707" MODIFIED="1406793392541" TEXT="&#x4fdd;&#x5b58;&#x5728;&#x7c7b;&#x7a7a;&#x95f4;&#xff0c;&#x901a;&#x8fc7;&#x7c7b;&#x540d;[&#x5b9e;&#x4f8b;&#x53d8;&#x91cf;&#x540d;].&#x53d8;&#x91cf;&#x540d;&#x8bbf;&#x95ee;"/>
@@ -21,12 +21,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1406792967561" ID="ID_1775261969" MODIFIED="1406793453999" POSITION="right" STYLE="bubble" TEXT="&#x5b9a;&#x4e49;&#x7c7b;">
+<node CREATED="1406792967561" FOLDED="true" ID="ID_1775261969" MODIFIED="1407579054868" POSITION="right" STYLE="bubble" TEXT="&#x5b9a;&#x4e49;&#x7c7b;">
 <node CREATED="1406793737218" ID="ID_537816572" MODIFIED="1406793768740" TEXT="&#x7c7b;&#x540d;&#x4e0e;&#x6587;&#x4ef6;&#x540d;&#x4e00;&#x6837;&#xff0c;&#x7b2c;&#x4e00;&#x4e2a;&#x5b57;&#x6bcd;&#x901a;&#x5e38;&#x5927;&#x5199;"/>
 <node CREATED="1406793771664" ID="ID_1809921986" MODIFIED="1406793788214" TEXT="&#x4ee5;class&#x5173;&#x952e;&#x5b57;&#x5b9a;&#x4e49;"/>
 <node CREATED="1406801048217" ID="ID_1903947374" MODIFIED="1406801092426" TEXT="&#x7c7b;&#x5b9a;&#x4e49;&#x7684;&#x683c;&#x5f0f; class ClassName {body:field and methods}"/>
 </node>
-<node CREATED="1406792538903" HGAP="23" ID="ID_1688566308" MODIFIED="1406792938194" POSITION="right" STYLE="bubble" TEXT="&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;" VSHIFT="23">
+<node CREATED="1406792538903" FOLDED="true" HGAP="23" ID="ID_1688566308" MODIFIED="1407579053866" POSITION="right" STYLE="bubble" TEXT="&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;" VSHIFT="23">
 <node CREATED="1406801098443" ID="ID_511275424" MODIFIED="1406801175980" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x7ed3;&#x6784;&#x683c;&#x5f0f;&#xff1a;ruturn_type methodName ( arg1, arg2, ..., argn){ code block}"/>
 <node CREATED="1406801185372" ID="ID_1126697043" MODIFIED="1406824119221" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x8fd4;&#x56de;&#x503c;&#xff1a;return &#x8bed;&#x53e5;&#x8fd4;&#x56de;, the result of the last statements will return if there is not any return statement present."/>
 <node CREATED="1406818710410" ID="ID_479218038" MODIFIED="1406818724190" TEXT="&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;">
@@ -64,7 +64,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1406792983793" HGAP="31" ID="ID_1584345120" MODIFIED="1407337241657" POSITION="right" STYLE="bubble" TEXT="constructors" VSHIFT="20">
+<node CREATED="1406792983793" FOLDED="true" HGAP="31" ID="ID_1584345120" MODIFIED="1407579052181" POSITION="right" STYLE="bubble" TEXT="constructors" VSHIFT="20">
 <node CREATED="1407337244501" ID="ID_1459911142" MODIFIED="1407337777536" TEXT="constructors is a special method, where method name is identy to class name and with no return value (thus has no return type declared left adhere to the method name"/>
 <node CREATED="1407337310337" ID="ID_671260164" MODIFIED="1407381512432" TEXT="constructors was involved to initialize the instance variable to create the instance of a class when a instance of the class is creating, that is using to initialize the instance variables"/>
 <node CREATED="1407337374193" ID="ID_1338598455" MODIFIED="1407339219783" TEXT="a default constructor, with no arguments and no statement in the body, will invovled if a class did not explicit defined a constructor"/>
@@ -80,7 +80,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1407343553351" ID="ID_1055608186" MODIFIED="1407382694829" POSITION="right" STYLE="bubble" TEXT="Method overloading">
+<node CREATED="1407343553351" FOLDED="true" ID="ID_1055608186" MODIFIED="1407579050687" POSITION="right" STYLE="bubble" TEXT="Method overloading">
 <node CREATED="1407343627095" ID="ID_807653550" MODIFIED="1407343724093" TEXT="defined two or more methods with the same name in a class, as long as each method has a unique set of parameters"/>
 <node CREATED="1407343739917" ID="ID_1473709788" MODIFIED="1407343817415" TEXT="signature of the method: the name of the method with the type and sequence of the parameters form the signature of a method"/>
 <node CREATED="1407382634066" ID="ID_714076416" MODIFIED="1407382688513" TEXT="mulitple constructors">
@@ -102,91 +102,20 @@
 </node>
 </node>
 <node CREATED="1407400554216" ID="ID_1878185761" MODIFIED="1407401861382" POSITION="right" STYLE="bubble" TEXT="Using Objects"/>
-<node CREATED="1407401882017" ID="ID_510479368" MODIFIED="1407401919882" POSITION="right" STYLE="bubble" TEXT="RECURSION">
+<node CREATED="1407401882017" FOLDED="true" ID="ID_510479368" MODIFIED="1407579047783" POSITION="right" STYLE="bubble" TEXT="RECURSION">
 <node CREATED="1407401929919" ID="ID_228693180" MODIFIED="1407402005413" TEXT="A method that can call itself described as ricursive method, and the process called recursion">
 <node CREATED="1407402009726" ID="ID_800963492" MODIFIED="1407402021747" TEXT="direct recursion"/>
 <node CREATED="1407402025722" ID="ID_1111236370" MODIFIED="1407402031924" TEXT="indirect resursion"/>
 </node>
 <node CREATED="1407402065384" ID="ID_1659084658" MODIFIED="1407402089999" TEXT="Stop logic need to stop the recursion"/>
 </node>
-<node CREATED="1407402649828" ID="ID_178217188" MODIFIED="1407415560189" POSITION="right" STYLE="bubble" TEXT="understanding packages">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#21253;&#26159;&#19968;&#20010;&#21807;&#19968;&#21629;&#21517;&#30340;&#31867;&#30340;&#38598;&#21512;&#65292;&#21253;&#21517;.&#31867;&#21517;&#25165;&#26159;&#31867;&#30340;&#23436;&#25972;&#21517;&#23383;
-    </p>
-    <p>
-      &#40664;&#35748;&#21253;&#27809;&#26377;&#21517;&#31216;&#65306;&#40664;&#35748;&#21253;
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1407415629965" ID="ID_1203163917" MODIFIED="1407425655558" TEXT="java.lang is auomatically avaliable to the program which is very closely relative to java language"/>
-<node CREATED="1407416016316" ID="ID_488846806" MODIFIED="1407420078689" TEXT="package: a uniquely named collection of classes, it is used to avoid name crash between your own variables and other provide variables"/>
-<node CREATED="1407427044281" ID="ID_329494950" MODIFIED="1407427054849" TEXT="packaging up classes">
-<node CREATED="1407551339995" ID="ID_558999876" MODIFIED="1407551430955" TEXT="put the package statement in the first line of the source file, and only just only the blank or comment lines can be in the front of the package statement"/>
-<node CREATED="1407551439720" ID="ID_1544314233" MODIFIED="1407551557047" TEXT="A public kew words will allowed access by all classes, while without will allowed accessed only by the classes in the same package."/>
-<node CREATED="1407551604062" ID="ID_1606750953" MODIFIED="1407556847942" TEXT="the name of the package will correspond to the structure of the directory, that the name and the position relationship should be identical. where names of directories in package were seprated by &quot;.&quot; and directory was separated by &quot;/&quot; or &quot;\&quot; (windows)"/>
-<node CREATED="1407554754447" ID="ID_462447850" MODIFIED="1407555586820" TEXT="there are need CLASSPATH environment or -classpath/-cp to specified the package where that the current program required class repository in. The package name should not include in the cp options or environment variables. cp can include more than one path when the paths was separated by &quot;;&quot; in windows or &quot;:&quot; in *uix OS."/>
-<node CREATED="1407555598779" ID="ID_582200197" MODIFIED="1407556398549" TEXT="the complied .class file also can be tar using jar and place on the ext directory to avoid cp setting. ext: jdkhome/jre/lib/ext"/>
-</node>
-<node CREATED="1407556473425" ID="ID_1719918379" MODIFIED="1407556484240" TEXT="Adding Classes from package to program">
-<node CREATED="1407556490629" ID="ID_1821236036" MODIFIED="1407556643904" TEXT="using import statement: package packagename.classname; or package packagename.*;">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      package packagename.*; just used to select the class in the packagename (directory), not all the class in all subdirectory of this package (directory)
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1407556671866" ID="ID_1931446958" MODIFIED="1407556685921" TEXT="package and names in the program">
-<node CREATED="1407556695861" ID="ID_639879972" MODIFIED="1407556764638" TEXT="package name was used ad prefix of a class repository in the package, so the package name is part of the class name"/>
-<node CREATED="1407556857424" ID="ID_410713552" MODIFIED="1407556908222" TEXT="So package.classname can by directory used in program without import class"/>
-<node CREATED="1407556912828" HGAP="23" ID="ID_1326052183" MODIFIED="1407556975906" TEXT="if import class, class can be simply used just with the classname" VSHIFT="-4"/>
-</node>
-<node CREATED="1407557034547" ID="ID_1709110944" MODIFIED="1407557042417" TEXT="import static class member">
-<node CREATED="1407557047689" ID="ID_1731140648" MODIFIED="1407557079891" TEXT="key word import static can import static member of a class"/>
-<node CREATED="1407557260925" ID="ID_1347152391" MODIFIED="1407557294211" TEXT="import static just import the static member in the asigned class"/>
-<node CREATED="1407557085035" ID="ID_1476965235" MODIFIED="1407557174918" TEXT="the imported static member can be used by simple using the name of the static member, that is exclude the package and class name from the member"/>
-<node CREATED="1407557189290" ID="ID_1531072408" MODIFIED="1407557237472" TEXT="It is also can use the format packagename.classname.membername to explicitly refer the static member"/>
-</node>
-<node CREATED="1407557356930" ID="ID_1782557089" MODIFIED="1407557363878" TEXT="statndard package">
-<node CREATED="1407557384101" ID="ID_1630354768" MODIFIED="1407557432012" TEXT="java.lang: classes are very import for java language, and this class can be import automatically"/>
-<node CREATED="1407557438240" ID="ID_208148053" MODIFIED="1407557500183" TEXT="java.io.file: classes for supporting I/O"/>
-<node CREATED="1407557468918" ID="ID_1681674935" MODIFIED="1407557504546" TEXT="java.nio.file: classes for supporting I/O"/>
-<node CREATED="1407557515096" ID="ID_1866047455" MODIFIED="1407557546075" TEXT="java.awt: classes for Graphic User Interface supporting"/>
-<node CREATED="1407557549748" ID="ID_1488012105" MODIFIED="1407557621823" TEXT="javax.swing: classes for Graphic User supporting, is elegent than java.awt, and so was favriator than java.awt when creating GUI"/>
-<node CREATED="1407557628001" ID="ID_284252915" MODIFIED="1407557641537" TEXT="java.awt.event: classes for event supporting"/>
-<node CREATED="1407557652059" ID="ID_1924240829" MODIFIED="1407557695981" TEXT="java.awt.geom: classes for plat geometry drawing and manuplation supporting"/>
-<node CREATED="1407557686169" ID="ID_803189852" MODIFIED="1407557810475" TEXT="javax.swing.border: classes support for border generation to around component "/>
-<node CREATED="1407557816805" ID="ID_320167956" MODIFIED="1407557847889" TEXT="javax.swing.event: classes support event for swing components"/>
-<node CREATED="1407557853954" ID="ID_1786905486" MODIFIED="1407557865308" TEXT="java.applet: classes for applet"/>
-<node CREATED="1407557873835" ID="ID_1028003064" MODIFIED="1407557927868" TEXT="java.util: classes for managment of collection, date, time and string"/>
-<node CREATED="1407568246029" ID="ID_1794878249" MODIFIED="1407568595861" TEXT="primitive data class: Integer, Long, Byte, Boolean, Short, Float, Double, Character">
-<node CREATED="1407568620627" ID="ID_1257976722" MODIFIED="1407568646634" TEXT="provide static method for impulation primitve data"/>
-<node CREATED="1407568657109" ID="ID_277956137" MODIFIED="1407568678438" TEXT="toString for primitive data to response strings"/>
-<node CREATED="1407568692745" ID="ID_838401829" MODIFIED="1407568802457" TEXT="parsexxx (xxx standard for primitive data classname, Integer.parseInt(), Boolean.parseBoolean et al) method to convert string to response primitive data value"/>
-<node CREATED="1407568845718" ID="ID_101987584" MODIFIED="1407568900063" TEXT=".xxxValue() can convert primitive object to xxx type value"/>
-<node CREATED="1407568910053" ID="ID_1928297541" MODIFIED="1407568993206" TEXT="final static constant value: MAX_VALUE and MIN_VALUE; POSITIVE_INFINITY and NEGTIVE_INFINITY and NaN."/>
-<node CREATED="1407569006212" ID="ID_1025624238" MODIFIED="1407569025872" TEXT="isInfinite() and isNaN can be used to test the value"/>
-<node CREATED="1407569155846" ID="ID_1349791956" MODIFIED="1407569275272" TEXT="autoboxing and unboxing: primitive type data and primitive type ojbect can inter-convert when nesessary"/>
-</node>
-</node>
-<node CREATED="1407569370676" ID="ID_181709723" MODIFIED="1407569429100" TEXT="controling Access tothe class members">
-<node CREATED="1407572558077" ID="ID_488304420" MODIFIED="1407572607034" TEXT="the access of the class members was controlled by its access atribute"/>
-<node CREATED="1407572610692" ID="ID_1907482939" MODIFIED="1407572654148" TEXT="four type access attribute">
-<node CREATED="1407572656374" ID="ID_999044300" MODIFIED="1407573162625" TEXT="no access attribute: access by method of any class on the same package"/>
-<node CREATED="1407572693276" ID="ID_775665580" MODIFIED="1407573190565" TEXT="public: access by method of any class"/>
-<node CREATED="1407572730190" ID="ID_1887836624" MODIFIED="1407573203747" TEXT="private: access by method inside the class, cann&apos;t access from outside of class at all"/>
-<node CREATED="1407572783730" ID="ID_1700124885" MODIFIED="1407573315399" TEXT="protected: access by the classes in the same package and any subclass in any where">
+<node CREATED="1407569370676" FOLDED="true" HGAP="81" ID="ID_488474355" MODIFIED="1407579166292" POSITION="left" STYLE="bubble" TEXT="controling Access tothe class members" VSHIFT="70">
+<node CREATED="1407572558077" ID="ID_2348075" MODIFIED="1407579027222" TEXT="the access of the class members was controlled by its access atribute"/>
+<node CREATED="1407572610692" ID="ID_1100668713" MODIFIED="1407579027222" TEXT="four type access attribute">
+<node CREATED="1407572656374" ID="ID_1611367937" MODIFIED="1407579027223" TEXT="no access attribute: access by method of any class on the same package"/>
+<node CREATED="1407572693276" ID="ID_525184311" MODIFIED="1407579027223" TEXT="public: access by method of any class"/>
+<node CREATED="1407572730190" ID="ID_1442559248" MODIFIED="1407579027223" TEXT="private: access by method inside the class, cann&apos;t access from outside of class at all"/>
+<node CREATED="1407572783730" ID="ID_1753306409" MODIFIED="1407579027223" TEXT="protected: access by the classes in the same package and any subclass in any where">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -255,13 +184,12 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1407573924732" ID="ID_170482060" MODIFIED="1407573961666" TEXT="specify access attribute">
-<node CREATED="1407573965117" ID="ID_1054161822" MODIFIED="1407573994666" TEXT="it is better to organized class members according to its access attribute: for better follow the code"/>
-<node CREATED="1407573997801" ID="ID_551944271" MODIFIED="1407574165597" TEXT="The order of class members: final -&gt; no final, static -&gt; no static, public -&gt; protected -&gt; no access -&gt; private ">
+<node CREATED="1407573924732" ID="ID_1127204258" MODIFIED="1407579027224" TEXT="specify access attributes">
+<node CREATED="1407573965117" ID="ID_454423662" MODIFIED="1407579027224" TEXT="it is better to organized class members according to its access attribute: for better follow the code"/>
+<node CREATED="1407573997801" ID="ID_456950034" MODIFIED="1407579027224" TEXT="The order of class members: final -&gt; no final, static -&gt; no static, public -&gt; protected -&gt; no access -&gt; private ">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -316,9 +244,85 @@
       notfinal notstatic private
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1407574199910" ID="ID_1372765374" MODIFIED="1407579027224" TEXT="choose access attributes">
+<node CREATED="1407574213373" ID="ID_1407670038" MODIFIED="1407579027225" TEXT="public class: most variables should set as private "/>
+<node CREATED="1407574276035" ID="ID_1384392574" MODIFIED="1407579027225" TEXT="not public class: no access control"/>
+<node CREATED="1407574311491" ID="ID_462517299" MODIFIED="1407579027225" TEXT="final members: set public"/>
+</node>
+<node CREATED="1407574622465" ID="ID_1827752119" MODIFIED="1407579027225" TEXT="using packages and access attributes"/>
+</node>
+<node CREATED="1407402649828" FOLDED="true" ID="ID_178217188" MODIFIED="1407579046483" POSITION="right" STYLE="bubble" TEXT="understanding packages">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21253;&#26159;&#19968;&#20010;&#21807;&#19968;&#21629;&#21517;&#30340;&#31867;&#30340;&#38598;&#21512;&#65292;&#21253;&#21517;.&#31867;&#21517;&#25165;&#26159;&#31867;&#30340;&#23436;&#25972;&#21517;&#23383;
+    </p>
+    <p>
+      &#40664;&#35748;&#21253;&#27809;&#26377;&#21517;&#31216;&#65306;&#40664;&#35748;&#21253;
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1407415629965" ID="ID_1203163917" MODIFIED="1407425655558" TEXT="java.lang is auomatically avaliable to the program which is very closely relative to java language"/>
+<node CREATED="1407416016316" ID="ID_488846806" MODIFIED="1407420078689" TEXT="package: a uniquely named collection of classes, it is used to avoid name crash between your own variables and other provide variables"/>
+<node CREATED="1407427044281" ID="ID_329494950" MODIFIED="1407427054849" TEXT="packaging up classes">
+<node CREATED="1407551339995" ID="ID_558999876" MODIFIED="1407551430955" TEXT="put the package statement in the first line of the source file, and only just only the blank or comment lines can be in the front of the package statement"/>
+<node CREATED="1407551439720" ID="ID_1544314233" MODIFIED="1407551557047" TEXT="A public kew words will allowed access by all classes, while without will allowed accessed only by the classes in the same package."/>
+<node CREATED="1407551604062" ID="ID_1606750953" MODIFIED="1407556847942" TEXT="the name of the package will correspond to the structure of the directory, that the name and the position relationship should be identical. where names of directories in package were seprated by &quot;.&quot; and directory was separated by &quot;/&quot; or &quot;\&quot; (windows)"/>
+<node CREATED="1407554754447" ID="ID_462447850" MODIFIED="1407555586820" TEXT="there are need CLASSPATH environment or -classpath/-cp to specified the package where that the current program required class repository in. The package name should not include in the cp options or environment variables. cp can include more than one path when the paths was separated by &quot;;&quot; in windows or &quot;:&quot; in *uix OS."/>
+<node CREATED="1407555598779" ID="ID_582200197" MODIFIED="1407556398549" TEXT="the complied .class file also can be tar using jar and place on the ext directory to avoid cp setting. ext: jdkhome/jre/lib/ext"/>
+</node>
+<node CREATED="1407556473425" ID="ID_1719918379" MODIFIED="1407556484240" TEXT="Adding Classes from package to program">
+<node CREATED="1407556490629" ID="ID_1821236036" MODIFIED="1407556643904" TEXT="using import statement: package packagename.classname; or package packagename.*;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      package packagename.*; just used to select the class in the packagename (directory), not all the class in all subdirectory of this package (directory)
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+</node>
+<node CREATED="1407556671866" ID="ID_1931446958" MODIFIED="1407556685921" TEXT="package and names in the program">
+<node CREATED="1407556695861" ID="ID_639879972" MODIFIED="1407556764638" TEXT="package name was used ad prefix of a class repository in the package, so the package name is part of the class name"/>
+<node CREATED="1407556857424" ID="ID_410713552" MODIFIED="1407556908222" TEXT="So package.classname can by directory used in program without import class"/>
+<node CREATED="1407556912828" HGAP="23" ID="ID_1326052183" MODIFIED="1407556975906" TEXT="if import class, class can be simply used just with the classname" VSHIFT="-4"/>
+</node>
+<node CREATED="1407557034547" ID="ID_1709110944" MODIFIED="1407557042417" TEXT="import static class member">
+<node CREATED="1407557047689" ID="ID_1731140648" MODIFIED="1407557079891" TEXT="key word import static can import static member of a class"/>
+<node CREATED="1407557260925" ID="ID_1347152391" MODIFIED="1407557294211" TEXT="import static just import the static member in the asigned class"/>
+<node CREATED="1407557085035" ID="ID_1476965235" MODIFIED="1407557174918" TEXT="the imported static member can be used by simple using the name of the static member, that is exclude the package and class name from the member"/>
+<node CREATED="1407557189290" ID="ID_1531072408" MODIFIED="1407557237472" TEXT="It is also can use the format packagename.classname.membername to explicitly refer the static member"/>
+</node>
+<node CREATED="1407557356930" ID="ID_1782557089" MODIFIED="1407557363878" TEXT="statndard package">
+<node CREATED="1407557384101" ID="ID_1630354768" MODIFIED="1407557432012" TEXT="java.lang: classes are very import for java language, and this class can be import automatically"/>
+<node CREATED="1407557438240" ID="ID_208148053" MODIFIED="1407557500183" TEXT="java.io.file: classes for supporting I/O"/>
+<node CREATED="1407557468918" ID="ID_1681674935" MODIFIED="1407557504546" TEXT="java.nio.file: classes for supporting I/O"/>
+<node CREATED="1407557515096" ID="ID_1866047455" MODIFIED="1407557546075" TEXT="java.awt: classes for Graphic User Interface supporting"/>
+<node CREATED="1407557549748" ID="ID_1488012105" MODIFIED="1407557621823" TEXT="javax.swing: classes for Graphic User supporting, is elegent than java.awt, and so was favriator than java.awt when creating GUI"/>
+<node CREATED="1407557628001" ID="ID_284252915" MODIFIED="1407557641537" TEXT="java.awt.event: classes for event supporting"/>
+<node CREATED="1407557652059" ID="ID_1924240829" MODIFIED="1407557695981" TEXT="java.awt.geom: classes for plat geometry drawing and manuplation supporting"/>
+<node CREATED="1407557686169" ID="ID_803189852" MODIFIED="1407557810475" TEXT="javax.swing.border: classes support for border generation to around component "/>
+<node CREATED="1407557816805" ID="ID_320167956" MODIFIED="1407557847889" TEXT="javax.swing.event: classes support event for swing components"/>
+<node CREATED="1407557853954" ID="ID_1786905486" MODIFIED="1407557865308" TEXT="java.applet: classes for applet"/>
+<node CREATED="1407557873835" ID="ID_1028003064" MODIFIED="1407557927868" TEXT="java.util: classes for managment of collection, date, time and string"/>
+<node CREATED="1407568246029" ID="ID_1794878249" MODIFIED="1407568595861" TEXT="primitive data class: Integer, Long, Byte, Boolean, Short, Float, Double, Character">
+<node CREATED="1407568620627" ID="ID_1257976722" MODIFIED="1407568646634" TEXT="provide static method for impulation primitve data"/>
+<node CREATED="1407568657109" ID="ID_277956137" MODIFIED="1407568678438" TEXT="toString for primitive data to response strings"/>
+<node CREATED="1407568692745" ID="ID_838401829" MODIFIED="1407568802457" TEXT="parsexxx (xxx standard for primitive data classname, Integer.parseInt(), Boolean.parseBoolean et al) method to convert string to response primitive data value"/>
+<node CREATED="1407568845718" ID="ID_101987584" MODIFIED="1407568900063" TEXT=".xxxValue() can convert primitive object to xxx type value"/>
+<node CREATED="1407568910053" ID="ID_1928297541" MODIFIED="1407568993206" TEXT="final static constant value: MAX_VALUE and MIN_VALUE; POSITIVE_INFINITY and NEGTIVE_INFINITY and NaN."/>
+<node CREATED="1407569006212" ID="ID_1025624238" MODIFIED="1407569025872" TEXT="isInfinite() and isNaN can be used to test the value"/>
+<node CREATED="1407569155846" ID="ID_1349791956" MODIFIED="1407569275272" TEXT="autoboxing and unboxing: primitive type data and primitive type ojbect can inter-convert when nesessary"/>
 </node>
 </node>
 </node>
