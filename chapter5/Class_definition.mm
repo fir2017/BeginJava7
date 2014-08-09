@@ -125,7 +125,52 @@
 </html></richcontent>
 <node CREATED="1407415629965" ID="ID_1203163917" MODIFIED="1407425655558" TEXT="java.lang is auomatically avaliable to the program which is very closely relative to java language"/>
 <node CREATED="1407416016316" ID="ID_488846806" MODIFIED="1407420078689" TEXT="package: a uniquely named collection of classes, it is used to avoid name crash between your own variables and other provide variables"/>
-<node CREATED="1407427044281" ID="ID_329494950" MODIFIED="1407427054849" TEXT="packaging up classes"/>
+<node CREATED="1407427044281" ID="ID_329494950" MODIFIED="1407427054849" TEXT="packaging up classes">
+<node CREATED="1407551339995" ID="ID_558999876" MODIFIED="1407551430955" TEXT="put the package statement in the first line of the source file, and only just only the blank or comment lines can be in the front of the package statement"/>
+<node CREATED="1407551439720" ID="ID_1544314233" MODIFIED="1407551557047" TEXT="A public kew words will allowed access by all classes, while without will allowed accessed only by the classes in the same package."/>
+<node CREATED="1407551604062" ID="ID_1606750953" MODIFIED="1407556847942" TEXT="the name of the package will correspond to the structure of the directory, that the name and the position relationship should be identical. where names of directories in package were seprated by &quot;.&quot; and directory was separated by &quot;/&quot; or &quot;\&quot; (windows)"/>
+<node CREATED="1407554754447" ID="ID_462447850" MODIFIED="1407555586820" TEXT="there are need CLASSPATH environment or -classpath/-cp to specified the package where that the current program required class repository in. The package name should not include in the cp options or environment variables. cp can include more than one path when the paths was separated by &quot;;&quot; in windows or &quot;:&quot; in *uix OS."/>
+<node CREATED="1407555598779" ID="ID_582200197" MODIFIED="1407556398549" TEXT="the complied .class file also can be tar using jar and place on the ext directory to avoid cp setting. ext: jdkhome/jre/lib/ext"/>
+</node>
+<node CREATED="1407556473425" ID="ID_1719918379" MODIFIED="1407556484240" TEXT="Adding Classes from package to program">
+<node CREATED="1407556490629" ID="ID_1821236036" MODIFIED="1407556643904" TEXT="using import statement: package packagename.classname; or package packagename.*;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      package packagename.*; just used to select the class in the packagename (directory), not all the class in all subdirectory of this package (directory)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1407556671866" ID="ID_1931446958" MODIFIED="1407556685921" TEXT="package and names in the program">
+<node CREATED="1407556695861" ID="ID_639879972" MODIFIED="1407556764638" TEXT="package name was used ad prefix of a class repository in the package, so the package name is part of the class name"/>
+<node CREATED="1407556857424" ID="ID_410713552" MODIFIED="1407556908222" TEXT="So package.classname can by directory used in program without import class"/>
+<node CREATED="1407556912828" HGAP="23" ID="ID_1326052183" MODIFIED="1407556975906" TEXT="if import class, class can be simply used just with the classname" VSHIFT="-4"/>
+</node>
+<node CREATED="1407557034547" ID="ID_1709110944" MODIFIED="1407557042417" TEXT="import static class member">
+<node CREATED="1407557047689" ID="ID_1731140648" MODIFIED="1407557079891" TEXT="key word import static can import static member of a class"/>
+<node CREATED="1407557260925" ID="ID_1347152391" MODIFIED="1407557294211" TEXT="import static just import the static member in the asigned class"/>
+<node CREATED="1407557085035" ID="ID_1476965235" MODIFIED="1407557174918" TEXT="the imported static member can be used by simple using the name of the static member, that is exclude the package and class name from the member"/>
+<node CREATED="1407557189290" ID="ID_1531072408" MODIFIED="1407557237472" TEXT="It is also can use the format packagename.classname.membername to explicitly refer the static member"/>
+</node>
+<node CREATED="1407557356930" ID="ID_1782557089" MODIFIED="1407557363878" TEXT="statndard package">
+<node CREATED="1407557384101" ID="ID_1630354768" MODIFIED="1407557432012" TEXT="java.lang: classes are very import for java language, and this class can be import automatically"/>
+<node CREATED="1407557438240" ID="ID_208148053" MODIFIED="1407557500183" TEXT="java.io.file: classes for supporting I/O"/>
+<node CREATED="1407557468918" ID="ID_1681674935" MODIFIED="1407557504546" TEXT="java.nio.file: classes for supporting I/O"/>
+<node CREATED="1407557515096" ID="ID_1866047455" MODIFIED="1407557546075" TEXT="java.awt: classes for Graphic User Interface supporting"/>
+<node CREATED="1407557549748" ID="ID_1488012105" MODIFIED="1407557621823" TEXT="javax.swing: classes for Graphic User supporting, is elegent than java.awt, and so was favriator than java.awt when creating GUI"/>
+<node CREATED="1407557628001" ID="ID_284252915" MODIFIED="1407557641537" TEXT="java.awt.event: classes for event supporting"/>
+<node CREATED="1407557652059" ID="ID_1924240829" MODIFIED="1407557695981" TEXT="java.awt.geom: classes for plat geometry drawing and manuplation supporting"/>
+<node CREATED="1407557686169" ID="ID_803189852" MODIFIED="1407557810475" TEXT="javax.swing.border: classes support for border generation to around component "/>
+<node CREATED="1407557816805" ID="ID_320167956" MODIFIED="1407557847889" TEXT="javax.swing.event: classes support event for swing components"/>
+<node CREATED="1407557853954" ID="ID_1786905486" MODIFIED="1407557865308" TEXT="java.applet: classes for applet"/>
+<node CREATED="1407557873835" ID="ID_1028003064" MODIFIED="1407557927868" TEXT="java.util: classes for managment of collection, date, time and string"/>
+</node>
 </node>
 </node>
 </map>
