@@ -177,6 +177,148 @@
 <node CREATED="1407568845718" ID="ID_101987584" MODIFIED="1407568900063" TEXT=".xxxValue() can convert primitive object to xxx type value"/>
 <node CREATED="1407568910053" ID="ID_1928297541" MODIFIED="1407568993206" TEXT="final static constant value: MAX_VALUE and MIN_VALUE; POSITIVE_INFINITY and NEGTIVE_INFINITY and NaN."/>
 <node CREATED="1407569006212" ID="ID_1025624238" MODIFIED="1407569025872" TEXT="isInfinite() and isNaN can be used to test the value"/>
+<node CREATED="1407569155846" ID="ID_1349791956" MODIFIED="1407569275272" TEXT="autoboxing and unboxing: primitive type data and primitive type ojbect can inter-convert when nesessary"/>
+</node>
+</node>
+<node CREATED="1407569370676" ID="ID_181709723" MODIFIED="1407569429100" TEXT="controling Access tothe class members">
+<node CREATED="1407572558077" ID="ID_488304420" MODIFIED="1407572607034" TEXT="the access of the class members was controlled by its access atribute"/>
+<node CREATED="1407572610692" ID="ID_1907482939" MODIFIED="1407572654148" TEXT="four type access attribute">
+<node CREATED="1407572656374" ID="ID_999044300" MODIFIED="1407573162625" TEXT="no access attribute: access by method of any class on the same package"/>
+<node CREATED="1407572693276" ID="ID_775665580" MODIFIED="1407573190565" TEXT="public: access by method of any class"/>
+<node CREATED="1407572730190" ID="ID_1887836624" MODIFIED="1407573203747" TEXT="private: access by method inside the class, cann&apos;t access from outside of class at all"/>
+<node CREATED="1407572783730" ID="ID_1700124885" MODIFIED="1407573315399" TEXT="protected: access by the classes in the same package and any subclass in any where">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table style="border-right-style: solid; border-left-style: solid; border-top-width: 0; width: 80%; border-bottom-width: 0; border-right-width: 0; border-left-width: 0; border-bottom-style: solid; border-top-style: solid" border="0">
+      <tr>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; width: 50%; border-top-width: 1; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            &#23646;&#24615;
+          </p>
+        </td>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; border-top-width: 1; width: 50%; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            &#25805;&#20316;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; width: 50%; border-top-width: 1; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            &#26080;&#35775;&#38382;&#25511;&#21046;&#65288;no access control&#65289;
+          </p>
+        </td>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; border-top-width: 1; width: 50%; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            &#20801;&#35768;&#21516;&#19968;&#20010;&#21253;&#20013;&#20219;&#24847;&#31867;&#30340;&#26041;&#27861;&#35775;&#38382;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; width: 50%; border-top-width: 1; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            public
+          </p>
+        </td>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; border-top-width: 1; width: 50%; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            &#20801;&#35768;&#20219;&#24847;&#20301;&#32622;&#30340;&#31867;&#26041;&#27861;&#35775;&#38382;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; width: 50%; border-top-width: 1; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            private
+          </p>
+        </td>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; border-top-width: 1; width: 50%; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            &#21482;&#20801;&#35768;&#31867;&#30340;&#20869;&#37096;&#26041;&#27861;&#35775;&#38382;&#65292;&#23436;&#20840;&#19981;&#33021;&#22312;&#31867;&#30340;&#22806;&#37096;&#35775;&#38382;
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; border-top-width: 1; width: 50%; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            protected
+          </p>
+        </td>
+        <td style="border-right-style: solid; border-left-style: solid; border-bottom-width: 1; border-top-width: 1; width: 50%; border-right-width: 1; border-left-width: 1; border-bottom-style: solid; border-top-style: solid" valign="top">
+          <p style="margin-bottom: 1; margin-left: 1; margin-top: 1; margin-right: 1">
+            &#20801;&#35768;&#21516;&#19968;&#20010;&#21253;&#20013;&#20219;&#24847;&#31867;&#30340;&#26041;&#27861;&#35775;&#38382;&#65292;&#24182;&#19988;&#20801;&#35768;&#20219;&#24847;&#20301;&#32622;&#30340;&#23376;&#31867;&#35775;&#38382;
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1407573924732" ID="ID_170482060" MODIFIED="1407573961666" TEXT="specify access attribute">
+<node CREATED="1407573965117" ID="ID_1054161822" MODIFIED="1407573994666" TEXT="it is better to organized class members according to its access attribute: for better follow the code"/>
+<node CREATED="1407573997801" ID="ID_551944271" MODIFIED="1407574165597" TEXT="The order of class members: final -&gt; no final, static -&gt; no static, public -&gt; protected -&gt; no access -&gt; private ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      final static public
+    </p>
+    <p>
+      final static protected
+    </p>
+    <p>
+      final static nocontrol
+    </p>
+    <p>
+      final static private
+    </p>
+    <p>
+      final notstatic public
+    </p>
+    <p>
+      final notstatic protected
+    </p>
+    <p>
+      final notstatic nocontrol
+    </p>
+    <p>
+      final notstatic private
+    </p>
+    <p>
+      notfinal static public
+    </p>
+    <p>
+      notfinal static protected
+    </p>
+    <p>
+      notfinal static nocontrol
+    </p>
+    <p>
+      notfinal static private
+    </p>
+    <p>
+      notfinal notstatic public
+    </p>
+    <p>
+      notfinal notstatic protected
+    </p>
+    <p>
+      notfinal notstatic nocontrol
+    </p>
+    <p>
+      notfinal notstatic private
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
