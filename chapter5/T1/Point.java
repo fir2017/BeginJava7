@@ -1,7 +1,10 @@
 public class Point {
   public static void main (String[] args) {
     Point aPoint1 = new Point(1.0,1.0);
-    System.out.println("point: (" + aPoint.toString() + ") is " + aPoint.isLeftTopToAsStr(new Point(2.0,2.0)) + " to point(2.0,2.0)")
+    System.out.println("point: (" + aPoint1.toString() + ") is " + aPoint1.isLeftTopToAsStr(new Point(2.0,2.0)) + " to point(2.0,2.0)");
+    System.out.println("point: (" + aPoint1.toString() + ") is " + aPoint1.isLeftTopToAsStr(new Point(0.0,0.0)) + " to point(0.0,0.0)");
+    System.out.println("point: (" + aPoint1.toString() + ") is " + aPoint1.isLeftTopToAsStr(new Point(2.0,0.0)) + " to point(2.0,0.0)");
+    System.out.println("point: (" + aPoint1.toString() + ") is " + aPoint1.isLeftTopToAsStr(new Point(0.0,2.0)) + " to point(0.0,2.0)");
   }
 
   public Point (double dX, double dY){
@@ -42,7 +45,7 @@ public class Point {
       iRelX = 2;
     } 
 
-    dTemp = dY - aPoint.getX();
+    dTemp = dY - aPoint.getY();
     if (dTemp > 0) {
       iRelY = 1;
     }else if (dTemp == 0) {
@@ -50,7 +53,7 @@ public class Point {
     } else {
       iRelY = 2;
     }
-    iRelY = iRelY << 2
+    iRelY = iRelY << 2;
     return iRelY | iRelX;
   }
   
