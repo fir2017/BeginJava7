@@ -64,7 +64,7 @@ public class mcmLength {
   }
 
   public double getAreaM (mcmLength aMcmLen){
-    return (double)(getArea()/1000/1000);
+    return (double)(getArea(aMcmLen)/1000/1000);
   }
 
   public int compareTo (mcmLength aMcmLen) {
