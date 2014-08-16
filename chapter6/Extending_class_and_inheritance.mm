@@ -65,7 +65,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1407592219120" ID="ID_1974189861" MODIFIED="1408180931279" POSITION="right" STYLE="bubble" TEXT="class inheritance">
+<node CREATED="1407592219120" FOLDED="true" ID="ID_1974189861" MODIFIED="1408183972889" POSITION="right" STYLE="bubble" TEXT="class inheritance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -313,12 +313,264 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1408180936381" ID="ID_324057966" MODIFIED="1408180947189" TEXT="Inheritance of method member">
+<node CREATED="1408180936381" FOLDED="true" ID="ID_324057966" MODIFIED="1408182659446" TEXT="Inheritance of method member">
 <node CREATED="1408180950633" ID="ID_305385638" MODIFIED="1408180995675" TEXT="the ruler of inherited of base class is the same as the inherited of data member"/>
 <node CREATED="1408181016376" ID="ID_1487300878" MODIFIED="1408181042518" TEXT="contructors do not inherited by derived class"/>
+<node CREATED="1408181456975" ID="ID_1258777036" MODIFIED="1408181953626" TEXT="Objects of derived class">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table border="0" style="border-bottom-width: 0; width: 80%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 0; border-left-width: 0; border-right-width: 0; border-top-style: solid">
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            Derived class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            Inherited method
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            new method
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            base class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            private
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            Yes
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            base class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no access attribute
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            bsae class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            protected
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            base class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            public
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            derived class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            private
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            derived class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no access attribute
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            derived class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            protected
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            derived class
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            public
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            no
+          </p>
+        </td>
+        <td valign="top" style="border-bottom-width: 1; width: 25%; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-width: 1; border-left-width: 1; border-right-width: 1; border-top-style: solid">
+          <p style="margin-bottom: 1; margin-top: 1; margin-left: 1; margin-right: 1">
+            yes
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1408182431554" ID="ID_1150503708" MODIFIED="1408182498673" TEXT="constructor of base class will called implicit or default when derived class constructor running"/>
+</node>
+<node CREATED="1408182645725" ID="ID_749723214" MODIFIED="1408182658112">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="method_member_inheritance.png" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1407592310989" ID="ID_163313151" MODIFIED="1407592324925" POSITION="right" STYLE="bubble" TEXT="the @override annotation"/>
+<node CREATED="1408182545427" FOLDED="true" ID="ID_1418470342" MODIFIED="1408183166298" TEXT="override methods of base class">
+<node CREATED="1408182936403" ID="ID_1306875325" MODIFIED="1408183008796" TEXT="declare a method in subclass with the signature identity to the inherited method in base class"/>
+<node CREATED="1408183044724" ID="ID_55415162" MODIFIED="1408183125659" TEXT="in derived class, the overrided method access attribute must is equal or less restriction as the method declared in base class"/>
+</node>
+</node>
+<node CREATED="1407592310989" FOLDED="true" ID="ID_163313151" MODIFIED="1408183974879" POSITION="right" STYLE="bubble" TEXT="the @override annotation">
+<node CREATED="1408183739257" ID="ID_1290708016" MODIFIED="1408183775786" TEXT="overload: the signature of method different from the method in base class"/>
+<node CREATED="1408183780437" ID="ID_148896253" MODIFIED="1408183860025" TEXT="override: redefined the method inherited from base class, so its signature is identical to the one in base class"/>
+<node CREATED="1408183869784" ID="ID_1945069923" MODIFIED="1408183959600" TEXT="@override: to make sure that the method declared in derived class is override the method of bsae class, and the error will raise when the signaure of the class is different from any inherited method of base class"/>
+</node>
 <node CREATED="1407592328273" ID="ID_317127975" MODIFIED="1407592376019" POSITION="right" STYLE="bubble" TEXT="Choosing base class access attributes"/>
 <node CREATED="1407592378739" ID="ID_644675008" MODIFIED="1407592388847" POSITION="right" STYLE="bubble" TEXT="polymorphism"/>
 <node CREATED="1407592404678" ID="ID_1534782015" MODIFIED="1407592676313" POSITION="right" STYLE="bubble" TEXT="multiple levels of inheritance"/>
