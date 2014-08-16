@@ -1,7 +1,8 @@
 import Measures.*;
 public class MatarialMeasure {
   public static void main(String[] args) {
-    MatarialMeasure M1 =     
+    MatarialMeasure carpet1 = new MatarialMeasure(4000,2090,1250);
+    MatarialMeasure carpet2 = new MatarialMeasure(3570,5000,1050);     
   }
 
   public MatarialMeasure(mcmLength length, mcmLength width, tkgWeight density){
