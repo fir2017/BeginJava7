@@ -10,7 +10,7 @@ public class Dog extends Animal {
     this.sBreed = new String(sBreed);
   }
   public String toString(){
-
+    return super.toString() + ",with name is " + sName + ", and breed is " + SBreed;
   }
   protected String sName;
   protected String sBreed;
