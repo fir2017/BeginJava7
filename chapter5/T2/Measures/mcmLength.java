@@ -1,3 +1,4 @@
+package Measures;
 public class mcmLength {
   public static void main (String[] args) {
     mcmLength mcm1 = new mcmLength(10,24,50);
@@ -60,6 +61,10 @@ public class mcmLength {
   
   public int getArea (mcmLength aMcmLen){
     return getLengthInMM() * aMcmLen.getLengthInMM();
+  }
+
+  public double getAreaM (mcmLength aMcmLen){
+    return (double)(getArea()/1000/1000);
   }
 
   public int compareTo (mcmLength aMcmLen) {

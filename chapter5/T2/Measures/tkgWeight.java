@@ -1,3 +1,4 @@
+package Measures;
 public class tkgWeight {
   public static void main(String[] args) {
     tkgWeight tkg1 = new tkgWeight(10,5,20001);
