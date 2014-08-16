@@ -1,7 +1,22 @@
 public class tkgWeight {
   public static void main(String[] args) {
     tkgWeight tkg1 = new tkgWeight(10,5,20001);
-    System.out.println(tkg1);
+    tkgWeight tkg2 = new tkgWeight(1000);
+    tkgWeight tkg3 = new tkgWeight(9856.87);
+    tkgWeight tkg4 = new tkgWeight();
+    System.out.print("(" + tkg4 + ")");
+    tkg4.add(156789);
+    System.out.println(" add 156789 grames = (" + tkg4 + ")");
+    System.out.print("(" + tkg1 + ")");
+    tkg1.substract(100000000);
+    System.out.println(" substract 100,000,000 grames = (" + tkg1 + ")");
+    System.out.print("(" + tkg2 + ")");
+    tkg2.multipy(10);
+    System.out.println(" multipy 10 grames = (" + tkg2 + ")");
+    System.out.print("(" + tkg3 + ")");
+    tkg3.divide(51);
+    System.out.println(" divide 51 grames = (" + tkg3 + ")");
+    System.out.println("(" + tkg1 + ") - (" + tkg2 + ") = " + tkg1.compareTo(tkg2));
   }
   public tkgWeight (int iTon, int iKillo, int iGrame) {
     toTKG(iTon * 1000 * 1000 + iKillo * 1000 + iGrame); 
