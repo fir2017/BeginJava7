@@ -64,7 +64,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1407592219120" ID="ID_1974189861" MODIFIED="1408371949976" POSITION="right" STYLE="bubble" TEXT="class inheritance">
+<node CREATED="1407592219120" FOLDED="true" ID="ID_1974189861" MODIFIED="1408382430893" POSITION="right" STYLE="bubble" TEXT="class inheritance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -566,7 +566,7 @@
 <node CREATED="1407592328273" FOLDED="true" ID="ID_317127975" MODIFIED="1408376569399" POSITION="right" STYLE="bubble" TEXT="Choosing base class access attributes">
 <node CREATED="1408375208455" ID="ID_600244305" MODIFIED="1408375321375" TEXT="make the external interface public, and data members private but providing public methods for accessing and manuplation"/>
 </node>
-<node CREATED="1407592378739" ID="ID_644675008" MODIFIED="1408381479287" POSITION="right" STYLE="bubble" TEXT="polymorphism">
+<node CREATED="1407592378739" FOLDED="true" ID="ID_644675008" MODIFIED="1408382429117" POSITION="right" STYLE="bubble" TEXT="polymorphism">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -598,7 +598,33 @@
 <node CREATED="1408379490900" ID="ID_1800634740" MODIFIED="1408379540220" TEXT="polymorphism just can be applied to the method, but not the data member"/>
 </node>
 <node CREATED="1407592404678" ID="ID_1534782015" MODIFIED="1407592676313" POSITION="right" STYLE="bubble" TEXT="multiple levels of inheritance"/>
-<node CREATED="1407592429080" ID="ID_827797602" MODIFIED="1407592676313" POSITION="right" STYLE="bubble" TEXT="abstract classes"/>
+<node CREATED="1407592429080" ID="ID_827797602" MODIFIED="1408383228274" POSITION="right" STYLE="bubble" TEXT="abstract classes">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public abstract class classname {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;public abstract returntype methodname ( args); // or
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;abstract public returntype methodname (args); // or
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1408382439597" ID="ID_1788461105" MODIFIED="1408382501903" TEXT="abstract class: A class in which one or more method are declared, but not defined, that is the body of the method is omited."/>
+<node CREATED="1408382522310" ID="ID_1693729911" MODIFIED="1408382559859" TEXT="The abstract method: the method is declared, but not defined."/>
+<node CREATED="1408382569967" ID="ID_1287445362" MODIFIED="1408382645294" TEXT="using abstract to declare the abstract method"/>
+<node CREATED="1408383234718" ID="ID_1362016514" MODIFIED="1408383336490" TEXT="a abstract class can not be instantiate, but can be used as type of a variable when declare"/>
+<node CREATED="1408383341904" ID="ID_295253111" MODIFIED="1408383367108" TEXT="abstract method can not be private"/>
+</node>
 <node CREATED="1407592450338" ID="ID_104572223" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="the universal superclass"/>
 <node CREATED="1407592506916" ID="ID_216933815" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="methods accept very number of arguments"/>
 <node CREATED="1407592541713" ID="ID_1964534730" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="casting objects"/>
