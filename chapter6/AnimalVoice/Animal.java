@@ -1,4 +1,5 @@
-public class Animal {
+package AnimalVoice;
+public abstract class Animal {
   public Animal(String sType){
     type = new String(sType);
     iCount++;
@@ -9,7 +10,7 @@ public class Animal {
   public int getCount(){
     return iCount;
   } 
-  public void sound(){}
+  abstract void sound();
   protected static int iCount = 0;
   private String type;
 }

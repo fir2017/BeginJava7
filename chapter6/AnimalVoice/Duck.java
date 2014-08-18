@@ -1,3 +1,4 @@
+package AnimalVoice;
 public class Duck extends Animal {
   public Duck (String sName){
     super("Duck");

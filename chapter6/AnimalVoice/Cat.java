@@ -1,3 +1,4 @@
+package AnimalVoice;
 public class Cat extends Animal {
   public Cat(String sName, String sBreed){
     super("Cat");
@@ -17,6 +18,6 @@ public class Cat extends Animal {
   public void sound(){
     System.out.println(super.toString() + ", and sound \"maiiaooww, maiiaoow, ...\"!");
   }
-  private String sName;
-  private String sBreed;
+  protected String sName;
+  protected String sBreed;
 }

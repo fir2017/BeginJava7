@@ -1,6 +1,8 @@
 import java.util.Random;
+import AnimalVoice.*;
 public class TryPolymorphism {
   public static void main (String[] args) {
+    System.out.println("The number of animals: " + Animal.iCount);
     Animal[] animals = {
                          new Duck("Tom"), 
                          new Dog("Jamy"), 
