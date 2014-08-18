@@ -31,7 +31,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node CREATED="1407592199523" FOLDED="true" ID="ID_1077517048" MODIFIED="1408177650841" POSITION="right" STYLE="bubble" TEXT="using existing class">
+<node CREATED="1407592199523" FOLDED="true" ID="ID_1077517048" MODIFIED="1408371894481" POSITION="right" STYLE="bubble" TEXT="using existing class">
 <node CREATED="1407593024806" ID="ID_797435119" MODIFIED="1407593085213" TEXT="derivation: define a class base on an existing class"/>
 <node CREATED="1407593094214" ID="ID_1960861555" MODIFIED="1407593187244" TEXT="drived class: is the direct subclass  of the class it derived"/>
 <node CREATED="1407593192837" ID="ID_1797183316" MODIFIED="1407593230296" TEXT="base class or super class: is the class used to derive other class"/>
@@ -61,11 +61,10 @@
   <body>
     <img src="class_derived_class.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1407592219120" FOLDED="true" ID="ID_1974189861" MODIFIED="1408183972889" POSITION="right" STYLE="bubble" TEXT="class inheritance">
+<node CREATED="1407592219120" ID="ID_1974189861" MODIFIED="1408371949976" POSITION="right" STYLE="bubble" TEXT="class inheritance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -78,8 +77,7 @@
       a instance of subclass always have a complete instance of base class, but this is not mean that the instance of subclass can access all members in the instance of base class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408178181300" ID="ID_1739011112" MODIFIED="1408178435863" TEXT="class inheritance: inclusion members of base class in derived class and thus they are accessible in the derived class"/>
 <node CREATED="1408178342075" ID="ID_941861087" MODIFIED="1408178725238" TEXT="inherited member:  a member of base class that is accessible within the derived class. They are full member of the derived class">
 <richcontent TYPE="NOTE"><html>
@@ -91,11 +89,10 @@
       the members of base class, which are not inherited by derived class, are still part of the derived class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1408177762809" FOLDED="true" ID="ID_518214033" MODIFIED="1408180430171" TEXT="Inheritance of data member">
-<node CREATED="1408178829753" ID="ID_865621556" MODIFIED="1408178928822" TEXT="subclass within the pacakge include base class can inherited data members expect ones defined by private"/>
+<node CREATED="1408177762809" FOLDED="true" ID="ID_518214033" MODIFIED="1408372196004" TEXT="Inheritance of data member">
+<node CREATED="1408178829753" ID="ID_865621556" MODIFIED="1408372053557" TEXT="subclass within the pacakge include base class can inherited data members expect ones declared by private"/>
 <node CREATED="1408178935619" ID="ID_186723168" MODIFIED="1408179000415" TEXT="subclass within the package not include the base class inherites data members defiend by public and protect."/>
 <node CREATED="1408179008160" ID="ID_1449024722" MODIFIED="1408179703957" TEXT="data members in base class definded by private do not inherited by any type of subclass">
 <richcontent TYPE="NOTE"><html>
@@ -284,8 +281,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408179708405" ID="ID_511985246" MODIFIED="1408179791771" TEXT="static members inherited will share by all the object of base class and derived class "/>
 <node CREATED="1408180416644" ID="ID_1399077420" MODIFIED="1408180427161">
@@ -296,10 +292,9 @@
   <body>
     <img src="data_member_inheritance.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1408180151074" ID="ID_1974463254" MODIFIED="1408180331556" TEXT="Hidden data member: defined a member with the name same of the inherited data member the base class">
+<node CREATED="1408180151074" ID="ID_1974463254" MODIFIED="1408372194593" TEXT="Hidden data member: defined a member with the name same to the inherited data member of the base class">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -309,11 +304,10 @@
       the hiddened data member of base class can still inherited, and is accessible by using key word &quot;super&quot;(super.value).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1408180936381" FOLDED="true" ID="ID_324057966" MODIFIED="1408182659446" TEXT="Inheritance of method member">
+<node CREATED="1408180936381" FOLDED="true" ID="ID_324057966" MODIFIED="1408372338188" TEXT="Inheritance of method member">
 <node CREATED="1408180950633" ID="ID_305385638" MODIFIED="1408180995675" TEXT="the ruler of inherited of base class is the same as the inherited of data member"/>
 <node CREATED="1408181016376" ID="ID_1487300878" MODIFIED="1408181042518" TEXT="contructors do not inherited by derived class"/>
 <node CREATED="1408181456975" ID="ID_1258777036" MODIFIED="1408181953626" TEXT="Objects of derived class">
@@ -545,9 +539,8 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
-<node CREATED="1408182431554" ID="ID_1150503708" MODIFIED="1408182498673" TEXT="constructor of base class will called implicit or default when derived class constructor running"/>
+</html></richcontent>
+<node CREATED="1408182431554" ID="ID_1150503708" MODIFIED="1408372317456" TEXT="constructor of the base class will called implicit or default when derived class constructor running"/>
 </node>
 <node CREATED="1408182645725" ID="ID_749723214" MODIFIED="1408182658112">
 <richcontent TYPE="NODE"><html>
@@ -557,22 +550,53 @@
   <body>
     <img src="method_member_inheritance.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1408182545427" FOLDED="true" ID="ID_1418470342" MODIFIED="1408183166298" TEXT="override methods of base class">
+<node CREATED="1408182545427" FOLDED="true" ID="ID_1418470342" MODIFIED="1408372388107" TEXT="override methods of base class">
 <node CREATED="1408182936403" ID="ID_1306875325" MODIFIED="1408183008796" TEXT="declare a method in subclass with the signature identity to the inherited method in base class"/>
 <node CREATED="1408183044724" ID="ID_55415162" MODIFIED="1408183125659" TEXT="in derived class, the overrided method access attribute must is equal or less restriction as the method declared in base class"/>
 </node>
 </node>
-<node CREATED="1407592310989" FOLDED="true" ID="ID_163313151" MODIFIED="1408183974879" POSITION="right" STYLE="bubble" TEXT="the @override annotation">
+<node CREATED="1407592310989" FOLDED="true" ID="ID_163313151" MODIFIED="1408372410043" POSITION="right" STYLE="bubble" TEXT="the @override annotation">
 <node CREATED="1408183739257" ID="ID_1290708016" MODIFIED="1408183775786" TEXT="overload: the signature of method different from the method in base class"/>
 <node CREATED="1408183780437" ID="ID_148896253" MODIFIED="1408183860025" TEXT="override: redefined the method inherited from base class, so its signature is identical to the one in base class"/>
 <node CREATED="1408183869784" ID="ID_1945069923" MODIFIED="1408183959600" TEXT="@override: to make sure that the method declared in derived class is override the method of bsae class, and the error will raise when the signaure of the class is different from any inherited method of base class"/>
 </node>
-<node CREATED="1407592328273" ID="ID_317127975" MODIFIED="1407592376019" POSITION="right" STYLE="bubble" TEXT="Choosing base class access attributes"/>
-<node CREATED="1407592378739" ID="ID_644675008" MODIFIED="1407592388847" POSITION="right" STYLE="bubble" TEXT="polymorphism"/>
+<node CREATED="1407592328273" FOLDED="true" ID="ID_317127975" MODIFIED="1408376569399" POSITION="right" STYLE="bubble" TEXT="Choosing base class access attributes">
+<node CREATED="1408375208455" ID="ID_600244305" MODIFIED="1408375321375" TEXT="make the external interface public, and data members private but providing public methods for accessing and manuplation"/>
+</node>
+<node CREATED="1407592378739" ID="ID_644675008" MODIFIED="1408381479287" POSITION="right" STYLE="bubble" TEXT="polymorphism">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      polymorphism work with derived class, that a reference to a derived class object must store in a variable of direct or indirect base class type to make polymorphism work.
+    </p>
+    <p>
+      covariant: the return type of the method in derived class is a subclass of the return type in base class.
+    </p>
+    <p>
+      when method called using a variable of the base class, polymorphism result in the method that is called being selected base on the object that the variable refered to, not the type of the variable.
+    </p>
+    <p>
+      the variable of base class can store reference of any object of derived class. so a variable of Object can store reference of object from any class.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1408376572129" ID="ID_1366375078" MODIFIED="1408377941955" TEXT="polymorphism: the ability of a singe variable of a given type can be used to referene objects of different type and to automatically call the method that is specific to the type of object that the varaible reference. "/>
+<node CREATED="1408378424545" ID="ID_1657876549" MODIFIED="1408378435208" TEXT="polymorphism work with derived class"/>
+<node CREATED="1408378439366" ID="ID_1242727640" MODIFIED="1408378589434" TEXT="the method call for a derived class object must be through a variable of base class type"/>
+<node CREATED="1408378596266" ID="ID_1757883152" MODIFIED="1408378627712" TEXT="the method called must defined in derived class"/>
+<node CREATED="1408378654707" ID="ID_1350955315" MODIFIED="1408378684909" TEXT="the method called must declared in base class"/>
+<node CREATED="1408378630817" ID="ID_162622700" MODIFIED="1408378793492" TEXT="the signature of method in derived class must be the same to the one in base class"/>
+<node CREATED="1408378843410" ID="ID_1579238311" MODIFIED="1408378921163" TEXT="either the return type of method is same in derived class and base class or is covariant"/>
+<node CREATED="1408378924906" ID="ID_1383000037" MODIFIED="1408379090803" TEXT="the specified access of the method must be no more restrictive  in derived class than base class"/>
+<node CREATED="1408379490900" ID="ID_1800634740" MODIFIED="1408379540220" TEXT="polymorphism just can be applied to the method, but not the data member"/>
+</node>
 <node CREATED="1407592404678" ID="ID_1534782015" MODIFIED="1407592676313" POSITION="right" STYLE="bubble" TEXT="multiple levels of inheritance"/>
 <node CREATED="1407592429080" ID="ID_827797602" MODIFIED="1407592676313" POSITION="right" STYLE="bubble" TEXT="abstract classes"/>
 <node CREATED="1407592450338" ID="ID_104572223" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="the universal superclass"/>
