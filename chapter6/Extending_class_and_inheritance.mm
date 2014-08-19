@@ -624,7 +624,7 @@
 <node CREATED="1408383341904" ID="ID_295253111" MODIFIED="1408383367108" TEXT="abstract method can not be private"/>
 <node CREATED="1408415617689" ID="ID_634182017" MODIFIED="1408415665584" TEXT="the derived class of a abstract class should implemented all of the abstract method, or the derived class is still an abstract class"/>
 </node>
-<node CREATED="1407592450338" ID="ID_104572223" MODIFIED="1408421798419" POSITION="right" STYLE="bubble" TEXT="the universal superclass">
+<node CREATED="1407592450338" FOLDED="true" ID="ID_104572223" MODIFIED="1408462787243" POSITION="right" STYLE="bubble" TEXT="the universal superclass">
 <node CREATED="1408415749290" ID="ID_1344930471" MODIFIED="1408415760757" TEXT="Object is the supperclass of any class"/>
 <node CREATED="1408417741514" ID="ID_1344274497" MODIFIED="1408417770109" TEXT="A variable of object can reference to any type of class"/>
 <node CREATED="1408418179262" ID="ID_654543480" MODIFIED="1408418319457">
@@ -635,8 +635,7 @@
   <body>
     <img src="Seven_public_method_of_Object.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408421777417" ID="ID_1533021105" MODIFIED="1408421791542">
 <richcontent TYPE="NODE"><html>
@@ -646,20 +645,66 @@
   <body>
     <img src="two_protected_method_of_Object.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408418349498" ID="ID_965787321" MODIFIED="1408418400635" TEXT="getclass(), notify(), notifyAll(), wait() are defined as final and so can not overide in the derived class"/>
 <node CREATED="1408418584854" ID="ID_525268907" MODIFIED="1408418669893" TEXT="toString method: it is always defined as public, the return of this method default is Classname@hash_of_object"/>
 <node CREATED="1408420393967" ID="ID_1668918608" MODIFIED="1408420474499" TEXT="getClass() to determine the type of Object: return Class Object and can use the member method getName() to get the name of the object class"/>
 <node CREATED="1408421443662" ID="ID_1793636983" MODIFIED="1408421556571" TEXT="Class was used primarily for JVM, and have no constructor, thus end user can not used directly."/>
 <node CREATED="1408421559141" ID="ID_505364725" MODIFIED="1408421618035" TEXT="to get the Class object of a given Class: object.getClass() method and ClassName.class attribute"/>
-<node CREATED="1408421801225" ID="ID_1021046234" MODIFIED="1408421810850" TEXT="duplicated object">
+<node CREATED="1408421801225" FOLDED="true" ID="ID_1021046234" MODIFIED="1408462786227" TEXT="duplicated object">
 <node CREATED="1408432184813" ID="ID_287765228" MODIFIED="1408432213130" TEXT="The class implement clonable interface"/>
+<node CREATED="1408460877736" ID="ID_60803372" MODIFIED="1408461292689" TEXT="The clone() method clone the object by creating a new object and setting each of fields in the new object to the same value as the corresponding fields in the current object."/>
+<node CREATED="1408462405693" ID="ID_744583322" MODIFIED="1408462481107" TEXT="copy constructor should setting the coressponding fields of new object to the same value as in the old one"/>
 </node>
 </node>
-<node CREATED="1407592506916" ID="ID_216933815" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="methods accept very number of arguments"/>
-<node CREATED="1407592541713" ID="ID_1964534730" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="casting objects"/>
+<node CREATED="1407592506916" FOLDED="true" ID="ID_216933815" MODIFIED="1408463459148" POSITION="right" STYLE="bubble" TEXT="methods accept very number of arguments">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      format of using arbitrary number of arguments:
+    </p>
+    <p>
+      <b>Object[any class] ... args </b>
+    </p>
+    <p>
+      <b>&quot;...&quot; </b>indicated the complier that the arguments is vararg
+    </p>
+    <p>
+      <b>Object[class]</b>&#160;indicated the type of args, if using Object to declare the args type, the type of elements of args can be vary.
+    </p>
+    <p>
+      <b>args</b>&#160;is a array object, and the elements stored passed arugments.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1408462792484" ID="ID_611085814" MODIFIED="1408462898158" TEXT="varargs: method that can accept an an arbitrary number of arguments, and the arguments do not need to be of the same type"/>
+</node>
+<node CREATED="1407592541713" FOLDED="true" ID="ID_1964534730" MODIFIED="1408467187423" POSITION="right" STYLE="bubble" TEXT="casting objects">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Format to cast object:
+    </p>
+    <p>
+      superclass variableName = (superclass) derived_class_object_variable
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1408464587493" ID="ID_686426615" MODIFIED="1408464732244" TEXT="casting object: transform the object to another type, when the two type of classes are in the same hierarchy of derived class, and one is the superclass of the other"/>
+<node CREATED="1408464735743" ID="ID_701202944" MODIFIED="1408465226365" TEXT="The cast superclass type object also maintain all the information of the origin object, and thus can be casted to any class type that was the superclass of the original class. this is mechanism that the polymorphism implement."/>
+<node CREATED="1408465062167" ID="ID_311378992" MODIFIED="1408465112048" TEXT="the variable of casted object can only call the method that override by the original class"/>
+<node CREATED="1408465257647" ID="ID_1067111543" MODIFIED="1408465357183" TEXT="cast between classes do not in the hierarchy derived class: class constructor where the casted cass object was an argument "/>
+<node CREATED="1408465851464" ID="ID_257348209" MODIFIED="1408465959741" TEXT="instanceof operator will return true if the type of the object is of the same type of the right operator(class, or any subclass)"/>
+</node>
 <node CREATED="1407592568173" ID="ID_92361842" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="more on enumberation"/>
 <node CREATED="1407592586489" ID="ID_61856660" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="designing classes"/>
 <node CREATED="1407592602029" ID="ID_134345668" MODIFIED="1407592676310" POSITION="right" STYLE="bubble" TEXT="using the final modifier"/>
