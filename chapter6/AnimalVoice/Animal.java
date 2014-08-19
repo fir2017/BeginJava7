@@ -10,7 +10,7 @@ public abstract class Animal {
   public int getCount(){
     return iCount;
   } 
-  abstract void sound();
-  protected static int iCount = 0;
+  public abstract void sound();
+  public static int iCount = 0;
   private String type;
 }
