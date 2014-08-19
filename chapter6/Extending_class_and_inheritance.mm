@@ -585,8 +585,7 @@
       the variable of base class can store reference of any object of derived class. so a variable of Object can store reference of object from any class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408376572129" ID="ID_1366375078" MODIFIED="1408377941955" TEXT="polymorphism: the ability of a singe variable of a given type can be used to referene objects of different type and to automatically call the method that is specific to the type of object that the varaible reference. "/>
 <node CREATED="1408378424545" ID="ID_1657876549" MODIFIED="1408378435208" TEXT="polymorphism work with derived class"/>
 <node CREATED="1408378439366" ID="ID_1242727640" MODIFIED="1408378589434" TEXT="the method call for a derived class object must be through a variable of base class type"/>
@@ -598,7 +597,7 @@
 <node CREATED="1408379490900" ID="ID_1800634740" MODIFIED="1408379540220" TEXT="polymorphism just can be applied to the method, but not the data member"/>
 </node>
 <node CREATED="1407592404678" ID="ID_1534782015" MODIFIED="1407592676313" POSITION="right" STYLE="bubble" TEXT="multiple levels of inheritance"/>
-<node CREATED="1407592429080" ID="ID_827797602" MODIFIED="1408383228274" POSITION="right" STYLE="bubble" TEXT="abstract classes">
+<node CREATED="1407592429080" FOLDED="true" ID="ID_827797602" MODIFIED="1408415743775" POSITION="right" STYLE="bubble" TEXT="abstract classes">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -617,15 +616,48 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408382439597" ID="ID_1788461105" MODIFIED="1408382501903" TEXT="abstract class: A class in which one or more method are declared, but not defined, that is the body of the method is omited."/>
 <node CREATED="1408382522310" ID="ID_1693729911" MODIFIED="1408382559859" TEXT="The abstract method: the method is declared, but not defined."/>
 <node CREATED="1408382569967" ID="ID_1287445362" MODIFIED="1408382645294" TEXT="using abstract to declare the abstract method"/>
 <node CREATED="1408383234718" ID="ID_1362016514" MODIFIED="1408383336490" TEXT="a abstract class can not be instantiate, but can be used as type of a variable when declare"/>
 <node CREATED="1408383341904" ID="ID_295253111" MODIFIED="1408383367108" TEXT="abstract method can not be private"/>
+<node CREATED="1408415617689" ID="ID_634182017" MODIFIED="1408415665584" TEXT="the derived class of a abstract class should implemented all of the abstract method, or the derived class is still an abstract class"/>
 </node>
-<node CREATED="1407592450338" ID="ID_104572223" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="the universal superclass"/>
+<node CREATED="1407592450338" ID="ID_104572223" MODIFIED="1408421798419" POSITION="right" STYLE="bubble" TEXT="the universal superclass">
+<node CREATED="1408415749290" ID="ID_1344930471" MODIFIED="1408415760757" TEXT="Object is the supperclass of any class"/>
+<node CREATED="1408417741514" ID="ID_1344274497" MODIFIED="1408417770109" TEXT="A variable of object can reference to any type of class"/>
+<node CREATED="1408418179262" ID="ID_654543480" MODIFIED="1408418319457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Seven_public_method_of_Object.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1408421777417" ID="ID_1533021105" MODIFIED="1408421791542">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="two_protected_method_of_Object.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1408418349498" ID="ID_965787321" MODIFIED="1408418400635" TEXT="getclass(), notify(), notifyAll(), wait() are defined as final and so can not overide in the derived class"/>
+<node CREATED="1408418584854" ID="ID_525268907" MODIFIED="1408418669893" TEXT="toString method: it is always defined as public, the return of this method default is Classname@hash_of_object"/>
+<node CREATED="1408420393967" ID="ID_1668918608" MODIFIED="1408420474499" TEXT="getClass() to determine the type of Object: return Class Object and can use the member method getName() to get the name of the object class"/>
+<node CREATED="1408421443662" ID="ID_1793636983" MODIFIED="1408421556571" TEXT="Class was used primarily for JVM, and have no constructor, thus end user can not used directly."/>
+<node CREATED="1408421559141" ID="ID_505364725" MODIFIED="1408421618035" TEXT="to get the Class object of a given Class: object.getClass() method and ClassName.class attribute"/>
+<node CREATED="1408421801225" ID="ID_1021046234" MODIFIED="1408421810850" TEXT="duplicated object">
+<node CREATED="1408432184813" ID="ID_287765228" MODIFIED="1408432213130" TEXT="The class implement clonable interface"/>
+</node>
+</node>
 <node CREATED="1407592506916" ID="ID_216933815" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="methods accept very number of arguments"/>
 <node CREATED="1407592541713" ID="ID_1964534730" MODIFIED="1407592676312" POSITION="right" STYLE="bubble" TEXT="casting objects"/>
 <node CREATED="1407592568173" ID="ID_92361842" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="more on enumberation"/>
