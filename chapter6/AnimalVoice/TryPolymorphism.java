@@ -3,13 +3,13 @@ import AnimalVoice.*;
 public class TryPolymorphism {
   public static void main (String[] args) {
     System.out.println("The number of animals: " + Animal.iCount);
-    Animal[] animals = {
-                         new Duck("Tom"), 
-                         new Dog("Jamy"), 
-                         new Cat("Bullin"),
-                         new Spaniel("Obama")
+    AnimalVoice.Animal[] animals = {
+                         new AnimalVoice.Duck("Tom"), 
+                         new AnimalVoice.Dog("Jamy"), 
+                         new AnimalVoice.Cat("Bullin"),
+                         new AnimalVoice.Spaniel("Obama")
                        }; 
-    Animal petAnimal = null;
+    AnimalVoice.Animal petAnimal = null;
     Random select = new Random();
     for (int i = 0; i < 5; i++){
       petAnimal = animals[select.nextInt(animals.length)];
