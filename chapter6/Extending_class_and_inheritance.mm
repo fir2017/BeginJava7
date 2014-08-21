@@ -30,8 +30,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1407592199523" FOLDED="true" ID="ID_1077517048" MODIFIED="1408371894481" POSITION="right" STYLE="bubble" TEXT="using existing class">
 <node CREATED="1407593024806" ID="ID_797435119" MODIFIED="1407593085213" TEXT="derivation: define a class base on an existing class"/>
 <node CREATED="1407593094214" ID="ID_1960861555" MODIFIED="1407593187244" TEXT="drived class: is the direct subclass  of the class it derived"/>
@@ -78,8 +77,7 @@
       a instance of subclass always have a complete instance of base class, but this is not mean that the instance of subclass can access all members in the instance of base class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408178181300" ID="ID_1739011112" MODIFIED="1408178435863" TEXT="class inheritance: inclusion members of base class in derived class and thus they are accessible in the derived class"/>
 <node CREATED="1408178342075" ID="ID_941861087" MODIFIED="1408178725238" TEXT="inherited member:  a member of base class that is accessible within the derived class. They are full member of the derived class">
 <richcontent TYPE="NOTE"><html>
@@ -587,8 +585,7 @@
       the variable of base class can store reference of any object of derived class. so a variable of Object can store reference of object from any class.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408376572129" ID="ID_1366375078" MODIFIED="1408377941955" TEXT="polymorphism: the ability of a singe variable of a given type can be used to referene objects of different type and to automatically call the method that is specific to the type of object that the varaible reference. "/>
 <node CREATED="1408378424545" ID="ID_1657876549" MODIFIED="1408378435208" TEXT="polymorphism work with derived class"/>
 <node CREATED="1408378439366" ID="ID_1242727640" MODIFIED="1408378589434" TEXT="the method call for a derived class object must be through a variable of base class type"/>
@@ -619,8 +616,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408382439597" ID="ID_1788461105" MODIFIED="1408382501903" TEXT="abstract class: A class in which one or more method are declared, but not defined, that is the body of the method is omited."/>
 <node CREATED="1408382522310" ID="ID_1693729911" MODIFIED="1408382559859" TEXT="The abstract method: the method is declared, but not defined."/>
 <node CREATED="1408382569967" ID="ID_1287445362" MODIFIED="1408382645294" TEXT="using abstract to declare the abstract method"/>
@@ -684,8 +680,7 @@
       <b>args</b>&#160;is a array object, and the elements stored passed arugments.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408462792484" ID="ID_611085814" MODIFIED="1408462898158" TEXT="varargs: method that can accept an an arbitrary number of arguments, and the arguments do not need to be of the same type"/>
 </node>
 <node CREATED="1407592541713" FOLDED="true" ID="ID_1964534730" MODIFIED="1408591667741" POSITION="right" STYLE="bubble" TEXT="casting objects">
@@ -701,8 +696,7 @@
       superclass variableName = (superclass) derived_class_object_variable
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408464587493" ID="ID_686426615" MODIFIED="1408464732244" TEXT="casting object: transform the object to another type, when the two type of classes are in the same hierarchy of derived class, and one is the superclass of the other"/>
 <node CREATED="1408464735743" ID="ID_701202944" MODIFIED="1408465226365" TEXT="The cast superclass type object also maintain all the information of the origin object, and thus can be casted to any class type that was the superclass of the original class. this is mechanism that the polymorphism implement."/>
 <node CREATED="1408465062167" ID="ID_311378992" MODIFIED="1408465112048" TEXT="the variable of casted object can only call the method that override by the original class"/>
@@ -773,8 +767,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1408583914709" ID="ID_247171924" MODIFIED="1408583944960" TEXT="Enumeration is an extend of  Enum class"/>
 <node CREATED="1408583950678" ID="ID_1504469761" MODIFIED="1408584160806" TEXT="The name and value of constant was stored in enumeration class and instance"/>
 <node CREATED="1408586462374" ID="ID_1153463186" MODIFIED="1408591674875" TEXT="The enumeration can be defined in class files or a separate file"/>
@@ -784,14 +777,121 @@
 <node CREATED="1408592625604" ID="ID_4413417" MODIFIED="1408592634796" TEXT="class method: values()"/>
 <node CREATED="1408592637552" ID="ID_1845718834" MODIFIED="1408592665243" TEXT="instance method: equals(), compareTo()"/>
 </node>
-<node CREATED="1407592586489" ID="ID_61856660" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="designing classes">
+<node CREATED="1407592586489" FOLDED="true" ID="ID_61856660" MODIFIED="1408629420034" POSITION="right" STYLE="bubble" TEXT="designing classes">
 <node CREATED="1408608192462" ID="ID_136646427" MODIFIED="1408608253904" TEXT="by hierarchy of derived classes based on base class"/>
 <node CREATED="1408608276391" ID="ID_253515112" MODIFIED="1408608324095" TEXT="defined a set classes that don&apos;t have hierarchy, but have the data member "/>
 </node>
 <node CREATED="1407592602029" FOLDED="true" ID="ID_134345668" MODIFIED="1408626081759" POSITION="right" STYLE="bubble" TEXT="using the final modifier">
 <node CREATED="1408625755392" ID="ID_94405502" MODIFIED="1408625975606" TEXT="Methods defined using final keyword can prevented it to be overrided by subclass"/>
 </node>
-<node CREATED="1407592625615" ID="ID_1743051872" MODIFIED="1407592676310" POSITION="right" STYLE="bubble" TEXT="interface"/>
+<node CREATED="1407592625615" ID="ID_1743051872" MODIFIED="1408632857700" POSITION="right" STYLE="bubble" TEXT="interface">
+<node CREATED="1408630458626" ID="ID_1081166578" MODIFIED="1408630497363" TEXT="interface: a collection of constants and/or abstract methods, and in most case it just contain abstract methods"/>
+<node CREATED="1408630564150" ID="ID_211635495" MODIFIED="1408631195533" TEXT="it can be used as the base of comman constants and/or methods, that have the polymophism behavior, that implemented in different class"/>
+<node CREATED="1408631648895" ID="ID_318516430" MODIFIED="1408633742363" TEXT="The form to defined interface is same to the one using in defining a class, but using the keyword interface rather than the keyword class.">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public interface conversionFactor {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;double INCH2MM = 25.4;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;double OUNCE2GRAM = 28.349523125;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;double POUND2GRAM = 453.5924;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;double HP2WATT = 745.7;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;double WAT2HP = 1 / HP2WATT;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;double inches2Milimerters(double inches);
+    </p>
+    <p>
+      &#160;&#160;&#160;double ounces2Grames(double ounces);
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1408632037047" ID="ID_1259053151" MODIFIED="1408634030526" TEXT="using keyword implement to using interface when define a class, and the constant all are the member of the class and can be inherited">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public class className implements interfaceName {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1408632123440" ID="ID_1142486736" MODIFIED="1408633930642" TEXT="the method in interface are all public and abstract, and the constant are all static, public and final, so the constant can be using directory by qualifying the name by the name of interface"/>
+<node CREATED="1408634895507" ID="ID_160855009" MODIFIED="1408635108176" TEXT="using a class to contain the constant as static fields and then import the name of fields when required is simpler more effective approach. It can just import the required fields and ignore other unnessisary fields."/>
+<node CREATED="1408635601041" ID="ID_1399310726" MODIFIED="1408636221034" TEXT="Every method declared in the interface must have defined within the class prior the object of the class create. A class implements interfaces but do not defined all of the declared methods of interface only can be defined as abstract class"/>
+<node CREATED="1408635703251" ID="ID_1113953246" MODIFIED="1408636594829" TEXT="a class can implements multiple interface">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public interface MyInterface extends HisInterface, HerInterface {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;// Interface members &#8211; constants and abstract methods...
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1408635722411" ID="ID_1406042979" MODIFIED="1408635925002" TEXT="methods have the same signature declared in different interface should presented the same return type, or will raising error when complile">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      public class className implements interface1, interface2, ..., interfacen {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1408636267787" ID="ID_134821189" MODIFIED="1408636374153" TEXT="It&apos;s a good idea to using @Override keyword to define method of interface within abstract class, or the complier will not give any complain when the signature of the method is different between the abstract class and interface"/>
+<node CREATED="1408636468315" ID="ID_429762762" MODIFIED="1408636740490" TEXT="Multiple inheritence: A new interface can be declared using key word extends to extend multiple interfaces"/>
+<node CREATED="1408637587076" ID="ID_1398913309" MODIFIED="1408637661848" TEXT="An object, creating from class implemented multiple interface, can casted to each of the interfaces that the class implemented"/>
+<node CREATED="1408637886331" ID="ID_825346186" MODIFIED="1408637893619" TEXT="An inner class to an interface is static and public by default"/>
+</node>
 <node CREATED="1407592639455" ID="ID_515488740" MODIFIED="1407592676309" POSITION="right" STYLE="bubble" TEXT="anonymous classes"/>
 </node>
 </map>
