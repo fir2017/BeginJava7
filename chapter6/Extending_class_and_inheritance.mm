@@ -709,7 +709,7 @@
 <node CREATED="1408465257647" ID="ID_1067111543" MODIFIED="1408465357183" TEXT="cast between classes do not in the hierarchy derived class: class constructor where the casted cass object was an argument "/>
 <node CREATED="1408465851464" ID="ID_257348209" MODIFIED="1408465959741" TEXT="instanceof operator will return true if the type of the object is of the same type of the right operator(class, or any subclass)"/>
 </node>
-<node CREATED="1407592568173" ID="ID_92361842" MODIFIED="1408592078369" POSITION="right" STYLE="bubble" TEXT="more on enumberation">
+<node CREATED="1407592568173" FOLDED="true" ID="ID_92361842" MODIFIED="1408608184626" POSITION="right" STYLE="bubble" TEXT="more on enumberation">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -784,8 +784,13 @@
 <node CREATED="1408592625604" ID="ID_4413417" MODIFIED="1408592634796" TEXT="class method: values()"/>
 <node CREATED="1408592637552" ID="ID_1845718834" MODIFIED="1408592665243" TEXT="instance method: equals(), compareTo()"/>
 </node>
-<node CREATED="1407592586489" ID="ID_61856660" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="designing classes"/>
-<node CREATED="1407592602029" ID="ID_134345668" MODIFIED="1407592676310" POSITION="right" STYLE="bubble" TEXT="using the final modifier"/>
+<node CREATED="1407592586489" ID="ID_61856660" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="designing classes">
+<node CREATED="1408608192462" ID="ID_136646427" MODIFIED="1408608253904" TEXT="by hierarchy of derived classes based on base class"/>
+<node CREATED="1408608276391" ID="ID_253515112" MODIFIED="1408608324095" TEXT="defined a set classes that don&apos;t have hierarchy, but have the data member "/>
+</node>
+<node CREATED="1407592602029" FOLDED="true" ID="ID_134345668" MODIFIED="1408626081759" POSITION="right" STYLE="bubble" TEXT="using the final modifier">
+<node CREATED="1408625755392" ID="ID_94405502" MODIFIED="1408625975606" TEXT="Methods defined using final keyword can prevented it to be overrided by subclass"/>
+</node>
 <node CREATED="1407592625615" ID="ID_1743051872" MODIFIED="1407592676310" POSITION="right" STYLE="bubble" TEXT="interface"/>
 <node CREATED="1407592639455" ID="ID_515488740" MODIFIED="1407592676309" POSITION="right" STYLE="bubble" TEXT="anonymous classes"/>
 </node>
