@@ -1,4 +1,4 @@
-package TryJackets;
+//package TryJackets;
 public class Jacket {
   public Jacket(JacketSize size, JacketColor color){
     this.size = size;

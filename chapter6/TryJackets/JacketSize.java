@@ -1,11 +1,15 @@
-package TryJackets; 
+//package TryJackets; 
 public enum JacketSize {
-  small(36), medium(40), large(42), extra_large(46), extra_extra_large(48);
-  JacketSize (int checkSize){
+  small(36,"for samll"), medium(40,"for youn"), large(42,"for audor"), extra_large(46,"for fat"), extra_extra_large(48,"for very fat");
+  JacketSize (int checkSize,String suitefor){
     this.checkSize = checkSize;
+    this.suiteFor = suitefor;
   }
   public int getSize(){
     return checkSize;
+  }
+  public String getSuite(){
+   return suiteFor;
   }
   @Override
   public String toString(){
@@ -24,5 +28,9 @@ public enum JacketSize {
        return "unkown";
     }
   }
+  public void setSize(int size){
+    checkSize = size;
+  }
   private int checkSize;
+  private String suiteFor;
 }

@@ -1,6 +1,6 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1407591979087" ID="ID_40349216" MODIFIED="1408175205763" TEXT="Extending class and inheritance">
+<node CREATED="1407591979087" ID="ID_40349216" MODIFIED="1408591667683" TEXT="Extending class and inheritance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -30,7 +30,8 @@
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1407592199523" FOLDED="true" ID="ID_1077517048" MODIFIED="1408371894481" POSITION="right" STYLE="bubble" TEXT="using existing class">
 <node CREATED="1407593024806" ID="ID_797435119" MODIFIED="1407593085213" TEXT="derivation: define a class base on an existing class"/>
 <node CREATED="1407593094214" ID="ID_1960861555" MODIFIED="1407593187244" TEXT="drived class: is the direct subclass  of the class it derived"/>
@@ -64,7 +65,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1407592219120" FOLDED="true" ID="ID_1974189861" MODIFIED="1408382430893" POSITION="right" STYLE="bubble" TEXT="class inheritance">
+<node CREATED="1407592219120" FOLDED="true" ID="ID_1974189861" MODIFIED="1408591667693" POSITION="right" STYLE="bubble" TEXT="class inheritance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -77,7 +78,8 @@
       a instance of subclass always have a complete instance of base class, but this is not mean that the instance of subclass can access all members in the instance of base class.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1408178181300" ID="ID_1739011112" MODIFIED="1408178435863" TEXT="class inheritance: inclusion members of base class in derived class and thus they are accessible in the derived class"/>
 <node CREATED="1408178342075" ID="ID_941861087" MODIFIED="1408178725238" TEXT="inherited member:  a member of base class that is accessible within the derived class. They are full member of the derived class">
 <richcontent TYPE="NOTE"><html>
@@ -566,7 +568,7 @@
 <node CREATED="1407592328273" FOLDED="true" ID="ID_317127975" MODIFIED="1408376569399" POSITION="right" STYLE="bubble" TEXT="Choosing base class access attributes">
 <node CREATED="1408375208455" ID="ID_600244305" MODIFIED="1408375321375" TEXT="make the external interface public, and data members private but providing public methods for accessing and manuplation"/>
 </node>
-<node CREATED="1407592378739" FOLDED="true" ID="ID_644675008" MODIFIED="1408382429117" POSITION="right" STYLE="bubble" TEXT="polymorphism">
+<node CREATED="1407592378739" FOLDED="true" ID="ID_644675008" MODIFIED="1408591667706" POSITION="right" STYLE="bubble" TEXT="polymorphism">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -585,7 +587,8 @@
       the variable of base class can store reference of any object of derived class. so a variable of Object can store reference of object from any class.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1408376572129" ID="ID_1366375078" MODIFIED="1408377941955" TEXT="polymorphism: the ability of a singe variable of a given type can be used to referene objects of different type and to automatically call the method that is specific to the type of object that the varaible reference. "/>
 <node CREATED="1408378424545" ID="ID_1657876549" MODIFIED="1408378435208" TEXT="polymorphism work with derived class"/>
 <node CREATED="1408378439366" ID="ID_1242727640" MODIFIED="1408378589434" TEXT="the method call for a derived class object must be through a variable of base class type"/>
@@ -597,7 +600,7 @@
 <node CREATED="1408379490900" ID="ID_1800634740" MODIFIED="1408379540220" TEXT="polymorphism just can be applied to the method, but not the data member"/>
 </node>
 <node CREATED="1407592404678" ID="ID_1534782015" MODIFIED="1407592676313" POSITION="right" STYLE="bubble" TEXT="multiple levels of inheritance"/>
-<node CREATED="1407592429080" FOLDED="true" ID="ID_827797602" MODIFIED="1408415743775" POSITION="right" STYLE="bubble" TEXT="abstract classes">
+<node CREATED="1407592429080" FOLDED="true" ID="ID_827797602" MODIFIED="1408591667721" POSITION="right" STYLE="bubble" TEXT="abstract classes">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -616,7 +619,8 @@
       }
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1408382439597" ID="ID_1788461105" MODIFIED="1408382501903" TEXT="abstract class: A class in which one or more method are declared, but not defined, that is the body of the method is omited."/>
 <node CREATED="1408382522310" ID="ID_1693729911" MODIFIED="1408382559859" TEXT="The abstract method: the method is declared, but not defined."/>
 <node CREATED="1408382569967" ID="ID_1287445362" MODIFIED="1408382645294" TEXT="using abstract to declare the abstract method"/>
@@ -658,7 +662,7 @@
 <node CREATED="1408462405693" ID="ID_744583322" MODIFIED="1408462481107" TEXT="copy constructor should setting the coressponding fields of new object to the same value as in the old one"/>
 </node>
 </node>
-<node CREATED="1407592506916" FOLDED="true" ID="ID_216933815" MODIFIED="1408463459148" POSITION="right" STYLE="bubble" TEXT="methods accept very number of arguments">
+<node CREATED="1407592506916" FOLDED="true" ID="ID_216933815" MODIFIED="1408591667733" POSITION="right" STYLE="bubble" TEXT="methods accept very number of arguments">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -684,7 +688,7 @@
 </richcontent>
 <node CREATED="1408462792484" ID="ID_611085814" MODIFIED="1408462898158" TEXT="varargs: method that can accept an an arbitrary number of arguments, and the arguments do not need to be of the same type"/>
 </node>
-<node CREATED="1407592541713" FOLDED="true" ID="ID_1964534730" MODIFIED="1408467187423" POSITION="right" STYLE="bubble" TEXT="casting objects">
+<node CREATED="1407592541713" FOLDED="true" ID="ID_1964534730" MODIFIED="1408591667741" POSITION="right" STYLE="bubble" TEXT="casting objects">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -705,7 +709,81 @@
 <node CREATED="1408465257647" ID="ID_1067111543" MODIFIED="1408465357183" TEXT="cast between classes do not in the hierarchy derived class: class constructor where the casted cass object was an argument "/>
 <node CREATED="1408465851464" ID="ID_257348209" MODIFIED="1408465959741" TEXT="instanceof operator will return true if the type of the object is of the same type of the right operator(class, or any subclass)"/>
 </node>
-<node CREATED="1407592568173" ID="ID_92361842" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="more on enumberation"/>
+<node CREATED="1407592568173" ID="ID_92361842" MODIFIED="1408592078369" POSITION="right" STYLE="bubble" TEXT="more on enumberation">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>define enumeration in a seperation file:</b>
+    </p>
+    <p>
+      public enum enumName {element1, element2, ...)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>define enumeration in a sepeation file with additional constructor and additional information:</b>
+    </p>
+    <p>
+      public enum enumName {
+    </p>
+    <p>
+      &#160;&#160;&#160;element1(value1, value2, ...), element2(value1, value2, ...), .....; the values in bracket will appear in the constructor with the same order
+    </p>
+    <p>
+      &#160;&#160;&#160;enumName(type1 value1, type2 value2, ...){ // value1 response value1 in elements, value2 response value2, .....
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;public type1 getValue1(){&#160;&#160;// using public method to get the value of enumeration instance
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;public type2 getValue2(){
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;private type1 value1; // value1 response value1 from elements
+    </p>
+    <p>
+      &#160;&#160;private type2 value2; // value2 response value2 from elements
+    </p>
+    <p>
+      &#160;&#160;....
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1408583914709" ID="ID_247171924" MODIFIED="1408583944960" TEXT="Enumeration is an extend of  Enum class"/>
+<node CREATED="1408583950678" ID="ID_1504469761" MODIFIED="1408584160806" TEXT="The name and value of constant was stored in enumeration class and instance"/>
+<node CREATED="1408586462374" ID="ID_1153463186" MODIFIED="1408591674875" TEXT="The enumeration can be defined in class files or a separate file"/>
+<node CREATED="1408591609788" ID="ID_389907884" MODIFIED="1408591773216" TEXT="the additional values can be added in bracekets followed by the elements of enumeration, with will used in the constructor"/>
+<node CREATED="1408591683591" ID="ID_476489442" MODIFIED="1408591758274" TEXT="the constructor must not be the public access attribute and the parameters are in the order of elements"/>
+<node CREATED="1408591705997" ID="ID_326932817" MODIFIED="1408592579534" TEXT="the additional value variable must be defined in private, and can use public method to get or set the value"/>
+<node CREATED="1408592625604" ID="ID_4413417" MODIFIED="1408592634796" TEXT="class method: values()"/>
+<node CREATED="1408592637552" ID="ID_1845718834" MODIFIED="1408592665243" TEXT="instance method: equals(), compareTo()"/>
+</node>
 <node CREATED="1407592586489" ID="ID_61856660" MODIFIED="1407592676311" POSITION="right" STYLE="bubble" TEXT="designing classes"/>
 <node CREATED="1407592602029" ID="ID_134345668" MODIFIED="1407592676310" POSITION="right" STYLE="bubble" TEXT="using the final modifier"/>
 <node CREATED="1407592625615" ID="ID_1743051872" MODIFIED="1407592676310" POSITION="right" STYLE="bubble" TEXT="interface"/>

@@ -9,7 +9,12 @@ public class TryJackets {
                        };
     System.out.println("The avariable size of Jacket:");
     for(JacketSize s: JacketSize.values()){
-      System.out.println("Size of " + s + " is " + s.getSize());
+      System.out.println("Size of " + s + " is " + s.getSize() + "it is suite " + s.getSuite());
+      s.setSize(100);
+    }
+    System.out.println("change the default size of Jacket size:"); 
+    for(JacketSize s: JacketSize.values()){
+      System.out.println("Size of " + s + " is " + s.getSize() + "it is suite " + s.getSuite());
     }
     System.out.println("The avariable color of Jacket:");
     for(JacketColor c:JacketColor.values()){
