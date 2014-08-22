@@ -784,7 +784,7 @@
 <node CREATED="1407592602029" FOLDED="true" ID="ID_134345668" MODIFIED="1408626081759" POSITION="right" STYLE="bubble" TEXT="using the final modifier">
 <node CREATED="1408625755392" ID="ID_94405502" MODIFIED="1408625975606" TEXT="Methods defined using final keyword can prevented it to be overrided by subclass"/>
 </node>
-<node CREATED="1407592625615" ID="ID_1743051872" MODIFIED="1408632857700" POSITION="right" STYLE="bubble" TEXT="interface">
+<node CREATED="1407592625615" ID="ID_1743051872" MODIFIED="1408680635528" POSITION="right" STYLE="bubble" TEXT="interface">
 <node CREATED="1408630458626" ID="ID_1081166578" MODIFIED="1408630497363" TEXT="interface: a collection of constants and/or abstract methods, and in most case it just contain abstract methods"/>
 <node CREATED="1408630564150" ID="ID_211635495" MODIFIED="1408631195533" TEXT="it can be used as the base of comman constants and/or methods, that have the polymophism behavior, that implemented in different class"/>
 <node CREATED="1408631648895" ID="ID_318516430" MODIFIED="1408633742363" TEXT="The form to defined interface is same to the one using in defining a class, but using the keyword interface rather than the keyword class.">
@@ -824,8 +824,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408632037047" ID="ID_1259053151" MODIFIED="1408634030526" TEXT="using keyword implement to using interface when define a class, and the constant all are the member of the class and can be inherited">
 <richcontent TYPE="NOTE"><html>
@@ -843,8 +842,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408632123440" ID="ID_1142486736" MODIFIED="1408633930642" TEXT="the method in interface are all public and abstract, and the constant are all static, public and final, so the constant can be using directory by qualifying the name by the name of interface"/>
 <node CREATED="1408634895507" ID="ID_160855009" MODIFIED="1408635108176" TEXT="using a class to contain the constant as static fields and then import the name of fields when required is simpler more effective approach. It can just import the required fields and ignore other unnessisary fields."/>
@@ -865,8 +863,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408635722411" ID="ID_1406042979" MODIFIED="1408635925002" TEXT="methods have the same signature declared in different interface should presented the same return type, or will raising error when complile">
 <richcontent TYPE="NOTE"><html>
@@ -884,12 +881,12 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408636267787" ID="ID_134821189" MODIFIED="1408636374153" TEXT="It&apos;s a good idea to using @Override keyword to define method of interface within abstract class, or the complier will not give any complain when the signature of the method is different between the abstract class and interface"/>
 <node CREATED="1408636468315" ID="ID_429762762" MODIFIED="1408636740490" TEXT="Multiple inheritence: A new interface can be declared using key word extends to extend multiple interfaces"/>
 <node CREATED="1408637587076" ID="ID_1398913309" MODIFIED="1408637661848" TEXT="An object, creating from class implemented multiple interface, can casted to each of the interfaces that the class implemented"/>
+<node CREATED="1408680657723" ID="ID_330860514" MODIFIED="1408680812328" TEXT="An interface can not used to create Objects, but can be used to declare variables, and the declared variable can refer to any object instanced from the class implemented the interface"/>
 <node CREATED="1408637886331" ID="ID_825346186" MODIFIED="1408637893619" TEXT="An inner class to an interface is static and public by default"/>
 </node>
 <node CREATED="1407592639455" ID="ID_515488740" MODIFIED="1407592676309" POSITION="right" STYLE="bubble" TEXT="anonymous classes"/>
