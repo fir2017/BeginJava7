@@ -82,7 +82,7 @@
 </html>
 </richcontent>
 </node>
-<node CREATED="1408891901584" ID="ID_1757990822" MODIFIED="1408892171606" TEXT="catch block enclosed codes to handle exceptions of a particular type that may thrown by the associated try block"/>
+<node CREATED="1408891901584" ID="ID_1757990822" MODIFIED="1408894952755" TEXT="catch block enclosed codes to handle exceptions of a particular type that may thrown by the associated try block, must immediately follow the try code block"/>
 <node CREATED="1408892194048" ID="ID_793168652" MODIFIED="1408892440271" TEXT="finally block is always execute before method ends"/>
 </node>
 </node>
