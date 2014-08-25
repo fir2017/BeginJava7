@@ -183,7 +183,63 @@
 <node CREATED="1408945930610" ID="ID_311175795" MODIFIED="1408945958096" TEXT="Nested try block is allowed"/>
 <node CREATED="1408946069765" ID="ID_1854733449" MODIFIED="1408946101952" TEXT="Exception can be throw using keyword throw in catch block."/>
 </node>
-<node CREATED="1408846744253" ID="ID_978018226" MODIFIED="1408846776034" POSITION="right" STYLE="bubble" TEXT="Exception objects"/>
-<node CREATED="1408846787525" ID="ID_1080854372" MODIFIED="1408846810657" POSITION="right" STYLE="bubble" TEXT="Defining your owner exception"/>
+<node CREATED="1408846744253" FOLDED="true" ID="ID_978018226" MODIFIED="1408961906562" POSITION="right" STYLE="bubble" TEXT="Exception objects">
+<node CREATED="1408947385564" FOLDED="true" ID="ID_549407451" MODIFIED="1408961905947" TEXT="The Throwable class">
+<node CREATED="1408947410070" FOLDED="true" ID="ID_1328490705" MODIFIED="1408960441697" TEXT="Constructor">
+<node CREATED="1408947418028" ID="ID_1798922305" MODIFIED="1408947557469" TEXT="Throwable(): create objects with default message"/>
+<node CREATED="1408947461460" ID="ID_1911882526" MODIFIED="1408947564079" TEXT="Throwable(String mesage): create objects with message as message"/>
+<node CREATED="1408947502068" ID="ID_1869223796" MODIFIED="1408959550498" TEXT="Throwable(String message, Throwable cause): create objects using message as message and cause as the specified exception. this can  make the chained of exception">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The cause reference can be obtained by calling getCause() for a Throwable object. This allows exceptions to be chained, so when one exception has been thrown, you can create another exception that provides more information about the problem and record within it a reference to the original exception that caused the new exception to be thrown.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1408947645854" ID="ID_888133592" MODIFIED="1408947763669" TEXT="Throwanble(String message, Throwable cause, boolean suppress, boolean stacktrace): create objects as previous, but deliver the exception if supress is true and record stacktrace if stacktrace is true"/>
+<node CREATED="1408947767372" ID="ID_262588067" MODIFIED="1408947815289" TEXT="Throwable(Throwable cuase): create objects with default messages and cause as the specified exception"/>
+</node>
+<node CREATED="1408959572410" FOLDED="true" ID="ID_72628477" MODIFIED="1408960213097" TEXT="Information carried by  Throwable object">
+<node CREATED="1408959626322" ID="ID_817666115" MODIFIED="1408959725823" TEXT="Message: refere to the message initialized in construction"/>
+<node CREATED="1408959733219" ID="ID_941808872" MODIFIED="1408959761562" TEXT="Throwable object: the cause of exception"/>
+<node CREATED="1408959770569" ID="ID_1227835744" MODIFIED="1408960134370" TEXT="stacktrace: keeps track of all the methods that are in execution at any given instant. It include fully qualifi ed name for each of the methods called, plus the line number in the source fi le where each method call occurs, the line number in the source code where&#xa;the exception originates."/>
+<node CREATED="1408960140234" ID="ID_240553425" MODIFIED="1408960203512" TEXT="exception supressed: A record of exceptions suppressed in order to deliver this exception"/>
+</node>
+<node CREATED="1408947822397" FOLDED="true" ID="ID_107411344" MODIFIED="1408961905116" TEXT="methods">
+<node CREATED="1408959353690" ID="ID_1115692052" MODIFIED="1408959392913" TEXT="getCause(): return the cause object"/>
+<node CREATED="1408960223283" ID="ID_1233521327" MODIFIED="1408960244842" TEXT="getMessages(): return the message information"/>
+<node CREATED="1408960256875" ID="ID_1544979020" MODIFIED="1408960338197" TEXT="printStackTrace(): output the message and the stack trace to standard error output"/>
+<node CREATED="1408960341074" ID="ID_876693733" MODIFIED="1408960438482" TEXT="printStrackTrace(PrintStream p): same as the above one, but using Printstream instead of standard error output"/>
+<node CREATED="1408960554953" FOLDED="true" ID="ID_203804319" MODIFIED="1408961364514" TEXT="getStrackTrace(): return an array of StackTraceElement">
+<node CREATED="1408961067516" ID="ID_28655249" MODIFIED="1408961182390" TEXT="getClassName(): return the full qualified name of class containing the exception points of the stack trace entry"/>
+<node CREATED="1408961185930" ID="ID_896221666" MODIFIED="1408961245670" TEXT="getFileName(): return the source filename containing the exception point"/>
+<node CREATED="1408961251948" ID="ID_1284363729" MODIFIED="1408961282830" TEXT="getLineNumber(): return the line number for the exception point in source file"/>
+<node CREATED="1408961289004" ID="ID_536620164" MODIFIED="1408961315006" TEXT="getMethodName(): return the name of method containing the exception point"/>
+</node>
+<node CREATED="1408961366227" ID="ID_1892509761" MODIFIED="1408961474055" TEXT="fillStackTrace(): update stack address to the point the method called">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The main use of this is when you want to rethrow an exception (so it is caught by the calling method) and record the point at which it is rethrown. For example:
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1408846787525" ID="ID_1080854372" MODIFIED="1408846810657" POSITION="right" STYLE="bubble" TEXT="Defining your owner exception">
+<node CREATED="1408961912939" ID="ID_229056854" MODIFIED="1408961978246" TEXT="Reason to defined exception: adding more information, distinct from general exception, minimize the exception"/>
+<node CREATED="1408961983539" ID="ID_1087281814" MODIFIED="1408962062751" TEXT="it must use Throwable as superclass"/>
+</node>
 </node>
 </map>
