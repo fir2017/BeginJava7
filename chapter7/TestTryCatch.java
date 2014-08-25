@@ -9,5 +9,6 @@ public class TestTryCatch {
       System.out.println("In catch block");
       System.out.println(e.getMessage());
     }
+    System.out.println("After try block");
   }
 }
