@@ -1,4 +1,4 @@
-public class N2IExceptions throws Exception {
+public class N2IExceptions extends Exception {
   public N2IExceptions(int i, Exception e){
     super("negative index for array: " + i, e);
     index = i;
@@ -12,7 +12,7 @@ public class N2IExceptions throws Exception {
   public N2IExceptions(int i, int arrayLen, Exception e){
     super("Index out of Bounds for array(length = " + arrayLen + "): " + i, e);
     index = i;
-    type = 1
+    type = 1;
   }
   public String getMessage(){
     String s = super.getMessage();
