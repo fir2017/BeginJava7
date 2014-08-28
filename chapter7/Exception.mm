@@ -91,8 +91,7 @@
       executed in the try block.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408933214751" ID="ID_1091557767" MODIFIED="1408933276768" TEXT="The catch block itself is a separate scope from try block"/>
 <node CREATED="1408933324176" ID="ID_1620666763" MODIFIED="1408933461059" TEXT="The try and catch block are bonding together, so the statement between try and catch block are not allowed"/>
@@ -122,8 +121,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408936945218" ID="ID_1225032662" MODIFIED="1408937016879" TEXT="The finally block is associated with try block and it is immediately follow by catch block or try block (if absent of catch block)"/>
 <node CREATED="1408937238347" ID="ID_30670297" MODIFIED="1408937292767" TEXT="Each try block must followed by at least one catch block or try block"/>
@@ -135,8 +133,7 @@
   <body>
     <img src="Structure_of_Try_Catch_Finally_block.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1408944654411" FOLDED="true" ID="ID_1728195703" MODIFIED="1408945866754" TEXT="The excution order of try-catch-finally">
@@ -149,8 +146,7 @@
   <body>
     <img src="Norm_excuting_sequence.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1408944759817" FOLDED="true" ID="ID_523915471" MODIFIED="1408945523280" TEXT="Exceptiion arise: try-&gt;catch-&gt;finally-&gt;code follow the try-catch-finally structure">
@@ -162,8 +158,7 @@
   <body>
     <img src="Exception_excuting_sequence.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1408945526340" FOLDED="true" ID="ID_1017805414" MODIFIED="1408945865242" TEXT="Exception dose not in try-catch-finally structure: propagate up to each level of of calling method until either it is caught or the main method it reached.">
@@ -175,8 +170,7 @@
   <body>
     <img src="Exception_absens_from_try_strucute.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -198,8 +192,7 @@
       The cause reference can be obtained by calling getCause() for a Throwable object. This allows exceptions to be chained, so when one exception has been thrown, you can create another exception that provides more information about the problem and record within it a reference to the original exception that caused the new exception to be thrown.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1408947645854" ID="ID_888133592" MODIFIED="1408947763669" TEXT="Throwanble(String message, Throwable cause, boolean suppress, boolean stacktrace): create objects as previous, but deliver the exception if supress is true and record stacktrace if stacktrace is true"/>
 <node CREATED="1408947767372" ID="ID_262588067" MODIFIED="1408947815289" TEXT="Throwable(Throwable cuase): create objects with default messages and cause as the specified exception"/>
@@ -231,15 +224,15 @@
       The main use of this is when you want to rethrow an exception (so it is caught by the calling method) and record the point at which it is rethrown. For example:
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1408846787525" ID="ID_1080854372" MODIFIED="1408846810657" POSITION="right" STYLE="bubble" TEXT="Defining your owner exception">
+<node CREATED="1408846787525" ID="ID_1080854372" MODIFIED="1409155602056" POSITION="right" STYLE="bubble" TEXT="Defining your owner exception">
 <node CREATED="1408961912939" ID="ID_229056854" MODIFIED="1408961978246" TEXT="Reason to defined exception: adding more information, distinct from general exception, minimize the exception"/>
 <node CREATED="1408961983539" ID="ID_1087281814" MODIFIED="1408962062751" TEXT="it must use Throwable as superclass"/>
+<node CREATED="1409153493357" ID="ID_920754174" MODIFIED="1409153699629" TEXT="owner exception can have members theyself"/>
 </node>
 </node>
 </map>
