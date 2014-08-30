@@ -38,7 +38,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1409222058971" FOLDED="true" ID="ID_392967502" MODIFIED="1409366302752" POSITION="right" STYLE="bubble" TEXT="The classes for input and output">
+<node CREATED="1409222058971" FOLDED="true" ID="ID_392967502" MODIFIED="1409390043346" POSITION="right" STYLE="bubble" TEXT="The classes for input and output">
 <node CREATED="1409327805748" FOLDED="true" ID="ID_1614575902" MODIFIED="1409331005736" TEXT="Abstract binary class: InputStream, OutputStream">
 <node CREATED="1409328043014" ID="ID_1175390254" MODIFIED="1409328064062" TEXT="implement Closeable and AutoCloseable interface"/>
 <node CREATED="1409328097646" ID="ID_1937543153" MODIFIED="1409328213949" TEXT="its subclass present byte stream and provide the means reading and writing binary data as a series of bytes"/>
@@ -79,7 +79,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1409329516383" ID="ID_1613254209" MODIFIED="1409331221569" TEXT="Abstract character class: Reader, Writer">
+<node CREATED="1409329516383" FOLDED="true" ID="ID_1613254209" MODIFIED="1409390039088" TEXT="Abstract character class: Reader, Writer">
 <node CREATED="1409329589462" ID="ID_1065237583" MODIFIED="1409329604796" TEXT="Implemented AutoCloseable interface"/>
 <node CREATED="1409329860496" FOLDED="true" ID="ID_1671661054" MODIFIED="1409332035457" TEXT="Reader implement Readable; throw IOException and NullPointerException">
 <node CREATED="1409329946752" ID="ID_1568849311" MODIFIED="1409330001992" TEXT="read(): read a char and return int reperesent the char"/>
@@ -158,7 +158,7 @@
 <node CREATED="1409331920760" ID="ID_887503742" MODIFIED="1409331955118" TEXT="Using char array to created instance, thus can read chars from array"/>
 </node>
 </node>
-<node CREATED="1409332020689" FOLDED="true" ID="ID_408471356" MODIFIED="1409334635547" TEXT="using writers">
+<node CREATED="1409332020689" FOLDED="true" ID="ID_408471356" MODIFIED="1409390037800" TEXT="using writers">
 <node CREATED="1409332187513" FOLDED="true" ID="ID_1167145703" MODIFIED="1409332547601" TEXT="OutputStreamWriter: superseded by new I/O facilities">
 <node CREATED="1409332295745" ID="ID_1563739201" MODIFIED="1409332394110" TEXT="using a binary OutputStream as argument for writing into"/>
 </node>
@@ -190,7 +190,7 @@
 <node CREATED="1409366890761" ID="ID_225172818" MODIFIED="1409366918015" TEXT="encapculated by the err member of System class, a type of PrintStream"/>
 <node CREATED="1409366921164" ID="ID_302883059" MODIFIED="1409366932489" TEXT="setErr(PrintStream pt)"/>
 </node>
-<node CREATED="1409367578692" FOLDED="true" ID="ID_1544188332" MODIFIED="1409374198709" TEXT="Getting data from keyboard">
+<node CREATED="1409367578692" FOLDED="true" ID="ID_1544188332" MODIFIED="1409385364932" TEXT="Getting data from keyboard">
 <node CREATED="1409367590069" ID="ID_999667950" MODIFIED="1409367812069" TEXT="token: refer to a data item such as number and string that, in general, consist of sveral consective characters of a particular kind from stream."/>
 <node CREATED="1409367825556" ID="ID_1589245347" MODIFIED="1409367829287" TEXT="Scanner"/>
 <node CREATED="1409367833417" FOLDED="true" ID="ID_437155459" MODIFIED="1409374197686" TEXT="StreamTokenizer: A class to read characters from Stream and convert to given type of items">
@@ -219,8 +219,7 @@
   <body>
     <img src="ReturnTypeOfStreamTokenizer.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1409372317930" ID="ID_1835669114" MODIFIED="1409372331505">
@@ -231,12 +230,37 @@
   <body>
     <img src="CustomizingMethodOfStreamTokenizer.png" />
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1409374203479" FOLDED="true" ID="ID_1784191816" MODIFIED="1409393786160" TEXT="Writing to the commad line">
+<node CREATED="1409389972737" FOLDED="true" ID="ID_894537276" MODIFIED="1409393785495" TEXT="PrintStream">
+<node CREATED="1409389981270" ID="ID_1784003900" MODIFIED="1409390073255" TEXT="print the basic type as a string. The same as PrintWriter"/>
+<node CREATED="1409390154572" ID="ID_778298628" MODIFIED="1409390216732" TEXT="The flushing of buffer is not controlable, and flush buffer whenever a new line was add into the buffer"/>
+<node CREATED="1409390228131" FOLDED="true" ID="ID_1182117772" MODIFIED="1409393783941" TEXT="printf method: format output of arbitrary sequence of various types.">
+<node CREATED="1409392274882" ID="ID_1279040295" MODIFIED="1409392289988" TEXT="print(Format, object ... args)"/>
+<node CREATED="1409392296121" ID="ID_674733023" MODIFIED="1409392308184" TEXT="printf(loc,format, object ... args)"/>
+<node CREATED="1409392312725" ID="ID_54083676" MODIFIED="1409392361161" TEXT="Format: %[argument_index$][flag][width][.precision]conversion"/>
+<node CREATED="1409392370259" ID="ID_788115298" MODIFIED="1409393319763" TEXT="conversion: d, o, x for integer in decimal, Octal, and hexadecimal repesent; f, g, a for flot-point in decimal, science, and hexadecimal sciece represent; c for character; s for string, b for boolean; n for new line"/>
+<node CREATED="1409393327525" ID="ID_875911996" MODIFIED="1409393391762" TEXT="argument_index: the index of the argument in the printf method, 1 for the first and 2 for the second, ... and so on. &lt; can be used to reperesent the proceding one "/>
+<node CREATED="1409393411718" ID="ID_804716622" MODIFIED="1409393504670" TEXT="flag: - for left-just align; ^ for uppercase conversion; + for sign of number need; 0 for 0 paded for number"/>
+<node CREATED="1409393509537" ID="ID_1588446213" MODIFIED="1409393522965" TEXT="with: the mimimal of width"/>
+<node CREATED="1409393525207" ID="ID_719433531" MODIFIED="1409393555775" TEXT=".precision: the number of digits for precision"/>
+<node CREATED="1409393764875" ID="ID_1400469792" MODIFIED="1409393782418">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="FormatStringConsistOfPrintf.png" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1409374203479" ID="ID_1784191816" MODIFIED="1409374222043" TEXT="Writing to the commad line"/>
+</node>
 </node>
 </node>
 </map>
