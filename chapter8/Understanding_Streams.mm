@@ -234,11 +234,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1409374203479" FOLDED="true" ID="ID_1784191816" MODIFIED="1409393786160" TEXT="Writing to the commad line">
-<node CREATED="1409389972737" FOLDED="true" ID="ID_894537276" MODIFIED="1409393785495" TEXT="PrintStream">
+<node CREATED="1409374203479" FOLDED="true" ID="ID_1784191816" MODIFIED="1409411176924" TEXT="Writing to the commad line">
+<node CREATED="1409389972737" ID="ID_894537276" MODIFIED="1409404748361" TEXT="PrintStream">
 <node CREATED="1409389981270" ID="ID_1784003900" MODIFIED="1409390073255" TEXT="print the basic type as a string. The same as PrintWriter"/>
 <node CREATED="1409390154572" ID="ID_778298628" MODIFIED="1409390216732" TEXT="The flushing of buffer is not controlable, and flush buffer whenever a new line was add into the buffer"/>
-<node CREATED="1409390228131" FOLDED="true" ID="ID_1182117772" MODIFIED="1409393783941" TEXT="printf method: format output of arbitrary sequence of various types.">
+<node CREATED="1409390228131" ID="ID_1182117772" MODIFIED="1409404750851" TEXT="printf method: format output of arbitrary sequence of various types.">
 <node CREATED="1409392274882" ID="ID_1279040295" MODIFIED="1409392289988" TEXT="print(Format, object ... args)"/>
 <node CREATED="1409392296121" ID="ID_674733023" MODIFIED="1409392308184" TEXT="printf(loc,format, object ... args)"/>
 <node CREATED="1409392312725" ID="ID_54083676" MODIFIED="1409392361161" TEXT="Format: %[argument_index$][flag][width][.precision]conversion"/>
@@ -255,8 +255,7 @@
   <body>
     <img src="FormatStringConsistOfPrintf.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
