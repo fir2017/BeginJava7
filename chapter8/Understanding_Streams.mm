@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1409221918247" ID="ID_1218745952" MODIFIED="1409306008558" TEXT="Understanding Streams">
-<node CREATED="1409221998617" FOLDED="true" ID="ID_1093956181" MODIFIED="1409312325553" POSITION="right" STYLE="bubble" TEXT="Streams and input/output operations">
+<node CREATED="1409221998617" FOLDED="true" ID="ID_1093956181" MODIFIED="1409366306188" POSITION="right" STYLE="bubble" TEXT="Streams and input/output operations">
 <node CREATED="1409312008110" ID="ID_666078933" MODIFIED="1409312059034" TEXT="The primarily input/ouput steam classes reposited in java.io packages"/>
 <node CREATED="1409312062532" FOLDED="true" ID="ID_1759583982" MODIFIED="1409312310798" TEXT="The task for input/output stream is ">
 <node CREATED="1409312107760" ID="ID_814490269" MODIFIED="1409312144694" TEXT="able to read data from keyboard"/>
@@ -10,7 +10,7 @@
 <node CREATED="1409312281938" ID="ID_938566763" MODIFIED="1409312306547" TEXT="able to read and write files contain objects"/>
 </node>
 </node>
-<node CREATED="1409222041169" ID="ID_1336041614" MODIFIED="1409222086243" POSITION="right" STYLE="bubble" TEXT="Understanding Steams">
+<node CREATED="1409222041169" FOLDED="true" ID="ID_1336041614" MODIFIED="1409366304456" POSITION="right" STYLE="bubble" TEXT="Understanding Steams">
 <node CREATED="1409313923543" ID="ID_300179369" MODIFIED="1409314053588" TEXT="Stream: An abstract representation of an input or output device that is source of , or destination for, data"/>
 <node CREATED="1409314056810" ID="ID_131165373" MODIFIED="1409314213912" TEXT="In java, Stream can visulized as sequence of bytes flow into or out of the progam"/>
 <node CREATED="1409314277451" FOLDED="true" ID="ID_1821598182" MODIFIED="1409322568423" TEXT="Input/Output Steam">
@@ -34,12 +34,11 @@
   <body>
     <img src="Binary_Stream_for_Numeric.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1409222058971" ID="ID_392967502" MODIFIED="1409331003479" POSITION="right" STYLE="bubble" TEXT="The classes for input and output">
+<node CREATED="1409222058971" FOLDED="true" ID="ID_392967502" MODIFIED="1409366302752" POSITION="right" STYLE="bubble" TEXT="The classes for input and output">
 <node CREATED="1409327805748" FOLDED="true" ID="ID_1614575902" MODIFIED="1409331005736" TEXT="Abstract binary class: InputStream, OutputStream">
 <node CREATED="1409328043014" ID="ID_1175390254" MODIFIED="1409328064062" TEXT="implement Closeable and AutoCloseable interface"/>
 <node CREATED="1409328097646" ID="ID_1937543153" MODIFIED="1409328213949" TEXT="its subclass present byte stream and provide the means reading and writing binary data as a series of bytes"/>
@@ -57,8 +56,7 @@
   <body>
     <img src="Input_stream_read_method.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1409328565670" FOLDED="true" ID="ID_748865791" MODIFIED="1409329081469" TEXT="BufferedInputStream">
@@ -77,8 +75,7 @@
   <body>
     <img src="principal_direct_subclass_of_OutputStream.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -97,8 +94,7 @@
   <body>
     <img src="Principal_direct_subclass_of_Reader.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1409330134318" FOLDED="true" ID="ID_1456772961" MODIFIED="1409332145505" TEXT="Writer implement Appendable">
@@ -121,8 +117,7 @@
   <body>
     <img src="write_class_write_method.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1409332041714" ID="ID_1142145655" MODIFIED="1409332136977">
@@ -133,8 +128,7 @@
   <body>
     <img src="principal_direct_subclasses_of_Writer.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1409330689320" ID="ID_1072417951" MODIFIED="1409330794241" TEXT="themselves and its subclass are not real stream, typically created by using underlying InputStream or OutputStream"/>
@@ -152,8 +146,7 @@
   <body>
     <img src="Constructors_of_InputStreamReader.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1409331380745" ID="ID_242972953" MODIFIED="1409331389502" TEXT="read() return unicode char using the default convertion from local computer"/>
@@ -184,6 +177,38 @@
 </node>
 </node>
 </node>
-<node CREATED="1409222076225" ID="ID_697719747" MODIFIED="1409222094178" POSITION="right" STYLE="bubble" TEXT="The standard streams"/>
+<node CREATED="1409222076225" ID="ID_697719747" MODIFIED="1409222094178" POSITION="right" STYLE="bubble" TEXT="The standard streams">
+<node CREATED="1409366359918" FOLDED="true" ID="ID_1003604193" MODIFIED="1409366789708" TEXT="Standard input: usually corresponds to the keyboard indefaut">
+<node CREATED="1409366539933" ID="ID_60711391" MODIFIED="1409366788086" TEXT="Encapculated by the in member of System class, a type of InputStream"/>
+<node CREATED="1409366612021" ID="ID_261791414" MODIFIED="1409366658647" TEXT="setIn(InputStream in): change the default standard input"/>
+</node>
+<node CREATED="1409366664312" FOLDED="true" ID="ID_173271875" MODIFIED="1409366846801" TEXT="Standard output: usually corresponds to the command lines or the console in the IDE environment">
+<node CREATED="1409366723660" ID="ID_267993040" MODIFIED="1409366814248" TEXT="Encapculated by the out member of System class, a type of PrintStream"/>
+<node CREATED="1409366819563" ID="ID_414464815" MODIFIED="1409366845096" TEXT="setOut(PrintStream pt)"/>
+</node>
+<node CREATED="1409366849939" FOLDED="true" ID="ID_112004349" MODIFIED="1409366934165" TEXT="Standard error: usually corresponds to the command lines or the console in the IDE environment">
+<node CREATED="1409366890761" ID="ID_225172818" MODIFIED="1409366918015" TEXT="encapculated by the err member of System class, a type of PrintStream"/>
+<node CREATED="1409366921164" ID="ID_302883059" MODIFIED="1409366932489" TEXT="setErr(PrintStream pt)"/>
+</node>
+<node CREATED="1409367578692" ID="ID_1544188332" MODIFIED="1409367586419" TEXT="Getting data from keyboard">
+<node CREATED="1409367590069" ID="ID_999667950" MODIFIED="1409367812069" TEXT="token: refer to a data item such as number and string that, in general, consist of sveral consective characters of a particular kind from stream."/>
+<node CREATED="1409367825556" ID="ID_1589245347" MODIFIED="1409367829287" TEXT="Scanner"/>
+<node CREATED="1409367833417" FOLDED="true" ID="ID_437155459" MODIFIED="1409369357693" TEXT="StreamTokenizer: A class to read characters from Stream and convert to given type of items">
+<node CREATED="1409368349057" ID="ID_1360001327" MODIFIED="1409368403050" TEXT="read characters from stream and parses it to series tokens "/>
+<node CREATED="1409368411276" ID="ID_1414827697" MODIFIED="1409368445798" TEXT="An InputStream object as argument when create instance"/>
+<node CREATED="1409369315426" ID="ID_1064416423" MODIFIED="1409369356377">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Tokens_of_StreamTokenizer_Object.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
