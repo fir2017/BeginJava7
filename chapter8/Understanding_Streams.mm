@@ -190,10 +190,10 @@
 <node CREATED="1409366890761" ID="ID_225172818" MODIFIED="1409366918015" TEXT="encapculated by the err member of System class, a type of PrintStream"/>
 <node CREATED="1409366921164" ID="ID_302883059" MODIFIED="1409366932489" TEXT="setErr(PrintStream pt)"/>
 </node>
-<node CREATED="1409367578692" ID="ID_1544188332" MODIFIED="1409367586419" TEXT="Getting data from keyboard">
+<node CREATED="1409367578692" FOLDED="true" ID="ID_1544188332" MODIFIED="1409374198709" TEXT="Getting data from keyboard">
 <node CREATED="1409367590069" ID="ID_999667950" MODIFIED="1409367812069" TEXT="token: refer to a data item such as number and string that, in general, consist of sveral consective characters of a particular kind from stream."/>
 <node CREATED="1409367825556" ID="ID_1589245347" MODIFIED="1409367829287" TEXT="Scanner"/>
-<node CREATED="1409367833417" FOLDED="true" ID="ID_437155459" MODIFIED="1409369357693" TEXT="StreamTokenizer: A class to read characters from Stream and convert to given type of items">
+<node CREATED="1409367833417" FOLDED="true" ID="ID_437155459" MODIFIED="1409374197686" TEXT="StreamTokenizer: A class to read characters from Stream and convert to given type of items">
 <node CREATED="1409368349057" ID="ID_1360001327" MODIFIED="1409368403050" TEXT="read characters from stream and parses it to series tokens "/>
 <node CREATED="1409368411276" ID="ID_1414827697" MODIFIED="1409368445798" TEXT="An InputStream object as argument when create instance"/>
 <node CREATED="1409369315426" ID="ID_1064416423" MODIFIED="1409369356377">
@@ -204,11 +204,39 @@
   <body>
     <img src="Tokens_of_StreamTokenizer_Object.png" />
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1409371227922" FOLDED="true" ID="ID_833978231" MODIFIED="1409372315244" TEXT="nextToken(): return the type of token, and store the data in nval(number) or sval(string or word) of the object">
+<node CREATED="1409371333601" ID="ID_726824992" MODIFIED="1409371379125" TEXT="TT_NUMBER:  token is number and data store in sval of the object with a type of double"/>
+<node CREATED="1409371342969" ID="ID_1509758115" MODIFIED="1409371421146" TEXT="TT_WORD: token is string and store in sval of the object with a type of String"/>
+<node CREATED="1409371424224" ID="ID_411405705" MODIFIED="1409371439538" TEXT="TT_EOF: indicated of the end of stream"/>
+<node CREATED="1409371459384" ID="ID_341091994" MODIFIED="1409371580796" TEXT="TT_EOL: end of an line is read. when eolIsSignificat() called with the argument is true, or it is considered as whitespace"/>
+<node CREATED="1409371588828" ID="ID_1509504201" MODIFIED="1409371693586">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="ReturnTypeOfStreamTokenizer.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1409372317930" ID="ID_1835669114" MODIFIED="1409372331505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="CustomizingMethodOfStreamTokenizer.png" />
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
 </node>
+<node CREATED="1409374203479" ID="ID_1784191816" MODIFIED="1409374222043" TEXT="Writing to the commad line"/>
 </node>
 </node>
 </map>
