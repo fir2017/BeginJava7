@@ -17,12 +17,20 @@
 <node CREATED="1409579497663" ID="ID_453345648" MODIFIED="1409579653916" TEXT="Files has methods to test the if the file or directory exists or not?"/>
 <node CREATED="1409579680863" ID="ID_1495125904" MODIFIED="1409579845922" TEXT="Files.getAttributes() method return Attribute object that contain attributes"/>
 </node>
-<node CREATED="1409572053727" FOLDED="true" ID="ID_253688074" MODIFIED="1409580024933" POSITION="right" STYLE="bubble" TEXT="Creating and Deleting Directories and Files">
+<node CREATED="1409572053727" FOLDED="true" ID="ID_253688074" MODIFIED="1409659002224" POSITION="right" STYLE="bubble" TEXT="Creating and Deleting Directories and Files">
 <node CREATED="1409579940925" ID="ID_321522698" MODIFIED="1409579993649" TEXT="Files.createDirectory() and createDirectories() create directory"/>
 <node CREATED="1409579996047" ID="ID_486981418" MODIFIED="1409580022645" TEXT="Files.delete() deleted files and directories"/>
 </node>
-<node CREATED="1409572163375" ID="ID_92406937" MODIFIED="1409572209393" POSITION="right" STYLE="bubble" TEXT="Getting the Contents of a Directories"/>
-<node CREATED="1409572212023" ID="ID_701087489" MODIFIED="1409572238589" POSITION="right" STYLE="bubble" TEXT="Closing a Stream"/>
-<node CREATED="1409572253335" ID="ID_1753831520" MODIFIED="1409572314951" POSITION="right" STYLE="bubble" TEXT="Moving and Copying Files and Directories"/>
+<node CREATED="1409572163375" FOLDED="true" ID="ID_92406937" MODIFIED="1409659009824" POSITION="right" STYLE="bubble" TEXT="Getting the Contents of a Directories">
+<node CREATED="1409658849495" ID="ID_1436743539" MODIFIED="1409658989615" TEXT="Files.newDirectoryStream() method return thecontent(files and directories) of a directory"/>
+</node>
+<node CREATED="1409572212023" FOLDED="true" ID="ID_701087489" MODIFIED="1409659057887" POSITION="right" STYLE="bubble" TEXT="Closing a Stream">
+<node CREATED="1409659024137" ID="ID_377132809" MODIFIED="1409659056171" TEXT="the close directory stream can be close directory by using the try(....) structure"/>
+</node>
+<node CREATED="1409572253335" ID="ID_1753831520" MODIFIED="1409659492570" POSITION="right" STYLE="bubble" TEXT="Moving and Copying Files and Directories">
+<node CREATED="1409659063633" ID="ID_250419092" MODIFIED="1409659100998" TEXT="Files.move() to move files and directory of a directory"/>
+<node CREATED="1409659106161" ID="ID_572380309" MODIFIED="1409659488832" TEXT="File.copy() to copy files and directory to a new directory"/>
+<node CREATED="1409659495946" ID="ID_1346050335" MODIFIED="1409659505668" TEXT="Files.walk"/>
+</node>
 </node>
 </map>
