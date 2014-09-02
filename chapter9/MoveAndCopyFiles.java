@@ -3,15 +3,52 @@ import java.nio.file.attribute.*;
 import java.io.IOException;
 public class MoveAndCopyFiles {
   public static void main(String[] args) {
-    Path wkp = Paths.get(System.getProperty("user.dir")); 
-    wkp = wkp.getParent();
-    wkp = wkp.toAbsolutePath();
+    Path from = Paths.get(System.getProperty("user.dir")); 
+    from = from.getParent();
+    from = from.toAbsolutePath();
   
-    Path to = wkp.getParent().resolve("test")
-    createDirectory();
+    Path to = from.getParent().resolve("test");
+    createDirectory(to);
+    System.err.println("copy files from:" + from + ":to:" + to); 
+    if( copyFiles(from,to) == false) {
+      System.err.println("Copy files failed");
+      return;
+    }
+    System.err.println("files copy finished!");
     
-    copyFiles(wkp,to);
+    from = to;
+    to = to.getParent().resolve("test1");
+    createDirectory(to);
+    System.err.println("Move files from:" + from + ":to:" + to); 
+    if(moveFiles(from,to) == false){
+      System.err.println("Move files failed!");
+      return;
+    } 
+    System.err.println("files move finished!"); 
     
+    try{
+      System.err.println("Remove directory:" + from);
+      Files.delete(from);
+    }catch(IOException e){
+      e.printStackTrace();
+    }
+    
+    try(DirectoryStream <Path> paths = Files.newDirectoryStream(to)){
+      System.err.println("Remove files in:" + to);
+      for(Path p : paths){
+        Files.delete(p);
+        System.err.println("\tDelete file:" + p);
+      } 
+    }catch(IOException e){
+      e.printStackTrace();
+    }
+    
+    try{
+      System.err.println("Delete file:" + to);
+      Files.delete(to);
+    }catch(IOException e){
+      e.printStackTrace();
+    }
   }
   
   public static boolean isDirectory(Path path) {
