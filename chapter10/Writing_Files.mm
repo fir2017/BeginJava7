@@ -24,8 +24,7 @@
   <body>
     <img src="StandardOutputOptions.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1410098844107" ID="ID_1317800789" MODIFIED="1410098882403">
 <richcontent TYPE="NODE"><html>
@@ -35,8 +34,7 @@
   <body>
     <img src="StandardOutputOptions-read.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1410099039025" ID="ID_344993484" MODIFIED="1410099090198" TEXT="BufferedOutputStream have methods to write bytes: write(char c); write(char[] chars, offset, length)"/>
 <node CREATED="1410099106689" ID="ID_1230310653" MODIFIED="1410099237496" TEXT="BufferedOutputStream have method flush() to explicitly output the buffers to stream"/>
@@ -52,14 +50,27 @@
   <body>
     <img src="BufferdWriter_write_method.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1410023020789" ID="ID_1642462474" MODIFIED="1410023125648" POSITION="right" STYLE="bubble" TEXT="Buffers">
 <node CREATED="1410101797517" ID="ID_1233499531" MODIFIED="1410101827373" TEXT="java.nio.Buffer is the base class for variety buffers"/>
 <node CREATED="1410101830478" ID="ID_241227827" MODIFIED="1410101851847" TEXT="all primilary data type have itself buffers, excetp boolean"/>
-<node CREATED="1410101855854" ID="ID_693031802" MODIFIED="1410101884601" TEXT="The CharBuffer was the only buffer that can be used to read or write data from or to file"/>
+<node CREATED="1410101855854" ID="ID_693031802" MODIFIED="1410142965581" TEXT="The CharBuffer was the only buffer that can be used to read or write data from or to file."/>
+<node CREATED="1410142968512" ID="ID_760370732" MODIFIED="1410142991228" TEXT="Other Buffers are called view buffer"/>
+<node CREATED="1410143207319" FOLDED="true" ID="ID_1856235665" MODIFIED="1410143449936" TEXT="The capacity of buffer: the maximum numbe of values that the buffer can have">
+<node CREATED="1410143279456" ID="ID_1669219308" MODIFIED="1410143305979" TEXT="The capacity of buffer cannot change after it have been determined."/>
+<node CREATED="1410143309910" ID="ID_824308804" MODIFIED="1410143382437" TEXT="The method .capacity() returnt he capacity of buffer in int type, indicated that the maxmum nuber of a buffer is 4G"/>
+<node CREATED="1410143390556" ID="ID_612587701" MODIFIED="1410143446254" TEXT="The start position of value index in a buffer is 0"/>
+</node>
+<node CREATED="1410143454403" FOLDED="true" ID="ID_285373556" MODIFIED="1410146848551" TEXT="The position and limit of a buffer">
+<node CREATED="1410144603947" ID="ID_914166239" MODIFIED="1410144724258" TEXT="position: is the position index of  the next buffer element ready for operation. writen or read"/>
+<node CREATED="1410144728866" ID="ID_1394639885" MODIFIED="1410144786695" TEXT="The position of a buffer usually automatichly imcreament"/>
+<node CREATED="1410144789866" ID="ID_1378165544" MODIFIED="1410144822242" TEXT="limit: is the position index of the first buffer element that should not to be operation"/>
+<node CREATED="1410146611756" ID="ID_250701609" MODIFIED="1410146648308" TEXT="the relation of position, limit and capacity: zero &lt;= position &lt;= limit &lt;= capacity"/>
+<node CREATED="1410146721081" ID="ID_6664439" MODIFIED="1410146844243" TEXT="view buffer created from ByteBuffer: the content is start from the position of the ByteBuffer, the limit and capacity if the value of the limit of ByteBuffer divide the number of bytes that the view buffer type have"/>
+</node>
+<node CREATED="1410146852160" ID="ID_1287790304" MODIFIED="1410146852160" TEXT=""/>
 </node>
 <node CREATED="1410023034263" ID="ID_1634736675" MODIFIED="1410023128805" POSITION="right" STYLE="bubble" TEXT="Writing a File Using a Channel"/>
 <node CREATED="1410023057503" ID="ID_626830264" MODIFIED="1410023131512" POSITION="right" STYLE="bubble" TEXT="File Write Operations"/>
