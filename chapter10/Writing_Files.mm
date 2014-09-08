@@ -63,14 +63,41 @@
 <node CREATED="1410143309910" ID="ID_824308804" MODIFIED="1410143382437" TEXT="The method .capacity() returnt he capacity of buffer in int type, indicated that the maxmum nuber of a buffer is 4G"/>
 <node CREATED="1410143390556" ID="ID_612587701" MODIFIED="1410143446254" TEXT="The start position of value index in a buffer is 0"/>
 </node>
-<node CREATED="1410143454403" FOLDED="true" ID="ID_285373556" MODIFIED="1410146848551" TEXT="The position and limit of a buffer">
+<node CREATED="1410143454403" FOLDED="true" ID="ID_285373556" MODIFIED="1410160191708" TEXT="The position and limit of a buffer">
 <node CREATED="1410144603947" ID="ID_914166239" MODIFIED="1410144724258" TEXT="position: is the position index of  the next buffer element ready for operation. writen or read"/>
 <node CREATED="1410144728866" ID="ID_1394639885" MODIFIED="1410144786695" TEXT="The position of a buffer usually automatichly imcreament"/>
 <node CREATED="1410144789866" ID="ID_1378165544" MODIFIED="1410144822242" TEXT="limit: is the position index of the first buffer element that should not to be operation"/>
 <node CREATED="1410146611756" ID="ID_250701609" MODIFIED="1410146648308" TEXT="the relation of position, limit and capacity: zero &lt;= position &lt;= limit &lt;= capacity"/>
 <node CREATED="1410146721081" ID="ID_6664439" MODIFIED="1410146844243" TEXT="view buffer created from ByteBuffer: the content is start from the position of the ByteBuffer, the limit and capacity if the value of the limit of ByteBuffer divide the number of bytes that the view buffer type have"/>
 </node>
-<node CREATED="1410146852160" ID="ID_1287790304" MODIFIED="1410146852160" TEXT=""/>
+<node CREATED="1410146852160" FOLDED="true" ID="ID_1287790304" MODIFIED="1410165582051" TEXT="position() and limit() methods are used to change the position and limit explicity. The methods return the buffer object">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      buf.limit(512).position(256);
+    </p>
+    <p>
+      The recommend for setting both limit and position: buf.position(0).limit(newLimit).position(newPosition);
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1410160290554" ID="ID_1146917320" MODIFIED="1410165366266">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Position_limit_Buffer.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1410165578165" ID="ID_1852947266" MODIFIED="1410165580929" TEXT="The recommend for setting both limit and position: buf.position(0).limit(newLimit).position(newPosition);"/>
+</node>
 </node>
 <node CREATED="1410023034263" ID="ID_1634736675" MODIFIED="1410023128805" POSITION="right" STYLE="bubble" TEXT="Writing a File Using a Channel"/>
 <node CREATED="1410023057503" ID="ID_626830264" MODIFIED="1410023131512" POSITION="right" STYLE="bubble" TEXT="File Write Operations"/>
