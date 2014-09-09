@@ -53,7 +53,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1410023020789" ID="ID_1642462474" MODIFIED="1410023125648" POSITION="right" STYLE="bubble" TEXT="Buffers">
+<node CREATED="1410023020789" ID="ID_1642462474" MODIFIED="1410230708237" POSITION="right" STYLE="bubble" TEXT="Buffers">
 <node CREATED="1410101797517" ID="ID_1233499531" MODIFIED="1410101827373" TEXT="java.nio.Buffer is the base class for variety buffers"/>
 <node CREATED="1410101830478" ID="ID_241227827" MODIFIED="1410101851847" TEXT="all primilary data type have itself buffers, excetp boolean"/>
 <node CREATED="1410101855854" ID="ID_693031802" MODIFIED="1410142965581" TEXT="The CharBuffer was the only buffer that can be used to read or write data from or to file."/>
@@ -70,7 +70,7 @@
 <node CREATED="1410146611756" ID="ID_250701609" MODIFIED="1410146648308" TEXT="the relation of position, limit and capacity: zero &lt;= position &lt;= limit &lt;= capacity"/>
 <node CREATED="1410146721081" ID="ID_6664439" MODIFIED="1410146844243" TEXT="view buffer created from ByteBuffer: the content is start from the position of the ByteBuffer, the limit and capacity if the value of the limit of ByteBuffer divide the number of bytes that the view buffer type have"/>
 </node>
-<node CREATED="1410146852160" FOLDED="true" ID="ID_1287790304" MODIFIED="1410165582051" TEXT="position() and limit() methods are used to change the position and limit explicity. The methods return the buffer object">
+<node CREATED="1410146852160" FOLDED="true" ID="ID_1287790304" MODIFIED="1410230711332" TEXT="position() and limit() methods are used to change the position and limit explicity. The methods return the buffer object">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -83,8 +83,7 @@
       The recommend for setting both limit and position: buf.position(0).limit(newLimit).position(newPosition);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1410160290554" ID="ID_1146917320" MODIFIED="1410165366266">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -93,10 +92,30 @@
   <body>
     <img src="Position_limit_Buffer.png" />
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1410165578165" ID="ID_1852947266" MODIFIED="1410165580929" TEXT="The recommend for setting both limit and position: buf.position(0).limit(newLimit).position(newPosition);"/>
+</node>
+<node CREATED="1410232640404" FOLDED="true" ID="ID_203959221" MODIFIED="1410238636021" TEXT="using the static allocate() method of itself onwer to create the object of buffer">
+<node CREATED="1410233068425" ID="ID_461935874" MODIFIED="1410233116426" TEXT="the default position and limit for object created from allocate() method is 0 and the capacity of object"/>
+<node CREATED="1410233133522" ID="ID_334266411" MODIFIED="1410238628858" TEXT="it impractice to create buffer object other than ByteBuffer"/>
+</node>
+<node CREATED="1410238995723" FOLDED="true" ID="ID_1400752264" MODIFIED="1410239941548" TEXT="Why view buffer">
+<node CREATED="1410239015157" ID="ID_1662616566" MODIFIED="1410239049525" TEXT="Byte is the only type that read from or write into files"/>
+<node CREATED="1410239053099" ID="ID_1188263482" MODIFIED="1410239298872" TEXT="create view buffer of ByteBuffer for other type of buffers can create bridge between operation of other type of data and I/O stream"/>
+<node CREATED="1410239394860" FOLDED="true" ID="ID_1022678543" MODIFIED="1410239935349" TEXT="using object buf.as&lt;type&gt;Buffer() to create &lt;type&gt; buffer from ByteBuffer object">
+<node CREATED="1410239890203" ID="ID_917880819" MODIFIED="1410239931961">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="Method_to_create_viewBuffers.png" />
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1410165578165" ID="ID_1852947266" MODIFIED="1410165580929" TEXT="The recommend for setting both limit and position: buf.position(0).limit(newLimit).position(newPosition);"/>
+</node>
 </node>
 </node>
 <node CREATED="1410023034263" ID="ID_1634736675" MODIFIED="1410023128805" POSITION="right" STYLE="bubble" TEXT="Writing a File Using a Channel"/>
