@@ -36,11 +36,11 @@ public class UsingAFormatter {
         System.err.printf("Position=%4d, limit=%4d, capacity=%4d%n",charBuf.position(), charBuf.limit(), charBuf.capacity());
         
         System.err.print("Byte buff:");
-        System.err.printf("Position=%4d, limit=%4d, capacity=%4d%n",buf.position(), buf.limit(), buf.capacity());
+        System.err.printf("Position=%4d, limit=%4d, capacity=%4d, remain=%4d%n",buf.position(), buf.limit(), buf.capacity(),buf.remaining());
         
         buf.limit(2*charBuf.length());
         System.err.print("Byte buff limit updation:");
-        System.err.printf("Position=%4d, limit=%4d, capacity=%4d%n",buf.position(), buf.limit(), buf.capacity());
+        System.err.printf("Position=%4d, limit=%4d, capacity=%4d, remain=%4d%n",buf.position(), buf.limit(), buf.capacity(),buf.remaining());
         
         fw.write(buf);
         buf.clear(); 
