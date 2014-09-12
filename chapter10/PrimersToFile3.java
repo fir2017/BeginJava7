@@ -7,7 +7,7 @@ import static java.lang.Math.sqrt;
 import static java.lang.Math.min;
 import static java.nio.file.StandardOpenOption.*;
 
-public class PrimersToFile { 
+public class PrimersToFile3 { 
   public static void main(String[] args) {
     if(args.length <= 0){
       System.err.println("Error: file and number of Primers generation required!"); 
@@ -34,25 +34,29 @@ public class PrimersToFile {
     System.err.printf("file:%s, number of primers: %d%n",fp, numPrimers); 
     
     long[] primers = getPrimers(numPrimers);
+    for(long p:primers) System.err.println(p);
     
     try(WritableByteChannel fw = Files.newByteChannel(fp, WRITE, CREATE)){
       ByteBuffer buf = ByteBuffer.allocate(1024);
-      LongBuffer lBuf = buf.asLongBuffer();
-      int start = 0;
-      while(start < primers.length){
-        lBuf.put(primers,start, min(primers.length - start, lBuf.limit() - lBuf.position()));   
-        buf.position(buf.position() + 8 * lBuf.position());
-        start += lBuf.position();
-        buf.flip();
-        fw.write(buf);
-        lBuf.clear();
-        buf.clear(); 
+      String pstr = null;
+      int i = 0;
+      while(i < primers.length){
+        pstr = "Primer = " + primers[i]; 
+        if(buf.position() + 8 + 8 + 2 * pstr.length() > buf.capacity()){
+          break;
+        }
+        buf.position(buf.position() + 8 * buf.asDoubleBuffer().put((double)pstr.length()).position());;
+        buf.position(buf.position() + 2 * buf.asCharBuffer().put(pstr).position()); 
+        buf.position(buf.position() + 8 * buf.asLongBuffer().put(primers[i]).position());
+        i++;
       }
-      System.err.println("Write " + primers.length + " primers to file:" + fp);
-    }catch(Exception e){
+      buf.flip();
+      fw.write(buf);
+      buf.clear();
+      System.err.println("Write " + primers.length + " of primers to file '" + fp +"'");
+    }catch(Exception e) {
       e.printStackTrace();
     } 
-    
   }
   
   public static long[] getPrimers(int numPrimers) {

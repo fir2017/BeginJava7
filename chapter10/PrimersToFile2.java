@@ -7,7 +7,7 @@ import static java.lang.Math.sqrt;
 import static java.lang.Math.min;
 import static java.nio.file.StandardOpenOption.*;
 
-public class PrimersToFile { 
+public class PrimersToFile2 { 
   public static void main(String[] args) {
     if(args.length <= 0){
       System.err.println("Error: file and number of Primers generation required!"); 
@@ -34,25 +34,36 @@ public class PrimersToFile {
     System.err.printf("file:%s, number of primers: %d%n",fp, numPrimers); 
     
     long[] primers = getPrimers(numPrimers);
+    for(long p:primers) System.err.println(p);
     
     try(WritableByteChannel fw = Files.newByteChannel(fp, WRITE, CREATE)){
       ByteBuffer buf = ByteBuffer.allocate(1024);
-      LongBuffer lBuf = buf.asLongBuffer();
+      DoubleBuffer dBuf = buf.asDoubleBuffer();
+      buf.position(8);
+      CharBuffer cBuf = buf.asCharBuffer();
+      LongBuffer longBuf = null;
+      String primerStr = null;
       int start = 0;
-      while(start < primers.length){
-        lBuf.put(primers,start, min(primers.length - start, lBuf.limit() - lBuf.position()));   
-        buf.position(buf.position() + 8 * lBuf.position());
-        start += lBuf.position();
+      for(long p : primers){
+        primerStr = "Primer = " + p;
+        dBuf.put(0, (double)(primerStr.length()));
+        System.err.println(primerStr.length());
+        cBuf.put(primerStr);
+        buf.position(8 + cBuf.position() * 2);
+        longBuf = buf.asLongBuffer();
+        longBuf.put(p);
+        buf.position(buf.position() + 8);
         buf.flip();
         fw.write(buf);
-        lBuf.clear();
-        buf.clear(); 
+        dBuf.clear();
+        longBuf.clear();
+        buf.clear();
+        cBuf.clear();
       }
-      System.err.println("Write " + primers.length + " primers to file:" + fp);
-    }catch(Exception e){
+      System.err.println("Write " + primers.length + " of primers to file '" + fp +"'");
+    }catch(Exception e) {
       e.printStackTrace();
     } 
-    
   }
   
   public static long[] getPrimers(int numPrimers) {
