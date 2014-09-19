@@ -15,7 +15,10 @@ public class StreamInputFromFile {
       ByteBuffer buf = ByteBuffer.allocate(6*8);
       LongBuffer lbuf = buf.asLongBuffer();
       byte[] byt = buf.array(); 
+      boolean markit = true;
       while(true){
+        if(markit) fo.mark(fo.available());
+        System.out.println("aviable:" + fo.available());
         int numRead = fo.read(byt, 0, byt.length);
         if(numRead == -1) break;
         for(int i =0; i < numRead/8; i++){
@@ -23,6 +26,8 @@ public class StreamInputFromFile {
         } 
         System.out.println();
         lbuf.flip();
+        if(markit)fo.reset();
+        markit = !markit;
       }
     }catch (Exception e){
       e.printStackTrace();
